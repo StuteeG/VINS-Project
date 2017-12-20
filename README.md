@@ -1,3 +1,14 @@
+Databade Connection Details :
+   URL : https://hosting.allianzcloud.com:7777/login/
+
+   Username : vins
+   pass : yhs6rS7t1ng
+
+Steps :
+1. CLick domain
+2. click vins.allianzcloud.com
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/masterpanda33/VINS-Project/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
