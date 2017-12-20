@@ -1,3 +1,3 @@
-5 forms recieved
-all pendi
-jbnjj
+pending :
+
+Operative detail sheet
