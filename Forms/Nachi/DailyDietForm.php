@@ -5,7 +5,7 @@
 		Daily Diet Form
 	</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">	
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
 	<script language="javascript">
 		function addRow() {
@@ -49,70 +49,70 @@
 			var element3 = document.createElement("input");
 			element3.type = "checkbox";
 			element3.name = "s_1_"+rowCount;
-			element3.className = "form-control text-center";
+			element3.className = "form-control text-center form-check-input";
 			cell3.appendChild(element3);
 
 			var cell4 = row.insertCell(4);
 			var element4 = document.createElement("input");
 			element4.type = "checkbox";
 			element4.name = "s_2_"+rowCount;
-			element4.className = "form-control text-center";
+			element4.className = "form-control text-center form-check-input";
 			cell4.appendChild(element4);
-			
+
 			var cell5 = row.insertCell(5);
 			var element5 = document.createElement("input");
 			element5.type = "checkbox";
 			element5.name = "s_3_"+rowCount;
-			element5.className = "form-control text-center";
+			element5.className = "form-control text-center form-check-input";
 			cell5.appendChild(element5);
-			
+
 			var cell6 = row.insertCell(6);
 			var element6 = document.createElement("input");
 			element6.type = "checkbox";
 			element6.name = "s_4_"+rowCount;
-			element6.className = "form-control text-center";
+			element6.className = "form-control text-center form-check-input";
 			cell6.appendChild(element6);
-			
+
 			var cell7 = row.insertCell(7);
 			var element7 = document.createElement("input");
 			element7.type = "checkbox";
 			element7.name = "s_5_"+rowCount;
-			element7.className = "form-control text-center";
+			element7.className = "form-control text-center form-check-input";
 			cell7.appendChild(element7);
-			
+
 			var cell8 = row.insertCell(8);
 			var element8 = document.createElement("input");
 			element8.type = "checkbox";
 			element8.name = "s_6_"+rowCount;
-			element8.className = "form-control text-center";
+			element8.className = "form-control text-center form-check-input";
 			cell8.appendChild(element8);
-			
+
 			var cell9 = row.insertCell(9);
 			var element9 = document.createElement("input");
 			element9.type = "checkbox";
 			element9.name = "s_7_"+rowCount;
-			element9.className = "form-control text-center";
+			element9.className = "form-control text-center form-check-input" ;
 			cell9.appendChild(element9);
-			
+
 			var cell10 = row.insertCell(10);
 			var element10 = document.createElement("input");
 			element10.type = "checkbox";
 			element10.name = "s_8_"+rowCount;
-			element10.className = "form-control text-center";
+			element10.className = "form-control text-center form-check-input";
 			cell10.appendChild(element10);
-			
+
 			var cell11 = row.insertCell(11);
 			var element11 = document.createElement("input");
 			element11.type = "checkbox";
 			element11.name = "s_9_"+rowCount;
-			element11.className = "form-control text-center";
+			element11.className = "form-control text-center form-check-input";
 			cell11.appendChild(element11);
-			
+
 			var cell12 = row.insertCell(12);
 			var element12 = document.createElement("input");
 			element12.type = "checkbox";
 			element12.name = "s_10_"+rowCount;
-			element12.className = "form-control text-center";
+			element12.className = "form-control text-center form-check-input";
 			cell12.appendChild(element12);
 
 			var cell13 = row.insertCell(13);
@@ -255,7 +255,7 @@
 						(12.30 PM)
 					</th>
 					<th class="text-center">
-						
+
 					</th>
 					<th class="text-center">
 						E.Snacks<br>
@@ -274,7 +274,7 @@
 						(9.30 PM)
 					</th>
 					<th class="text-center">
-						
+
 					</th>
 					<th class="text-center" width="15%">Remarks</th>
 				</tr>
@@ -289,4 +289,4 @@
 	</div>
 	</form>
 </div>
-</html>	
+</html>

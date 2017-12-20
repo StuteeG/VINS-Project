@@ -1,4 +1,4 @@
-Databade Connection Details :
+Database Connection Details :
    URL : https://hosting.allianzcloud.com:7777/login/
 
    Username : vins
