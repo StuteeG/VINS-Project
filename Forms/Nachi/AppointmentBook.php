@@ -16,7 +16,7 @@
 			var rowCount = table.rows.length;
 			var row = table.insertRow(rowCount);
 
-			row.className = "form-group";
+			row.className = "form-group form-check";
 			rowCount=rowCount-2;
 
 			var cell0 = row.insertCell(0);
