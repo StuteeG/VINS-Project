@@ -1,5 +1,3 @@
 
-pending : 
-  Billing Intimation
+pending :
   checklist
-  daily diet form
