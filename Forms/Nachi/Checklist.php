@@ -3,7 +3,7 @@
 	<title>
 		Checklist
 	</title>
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">	
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 
 <body>
@@ -12,13 +12,13 @@
 			<div class="row">
 				<div class="col-md-6">
 					<h1>Peripheral Line Bundle Checklist</h1>
-				</div>	
+				</div>
 				<div class="col-md-6">
 					<div class="text-right">
 						DOC NO. FMT/HIC/09 <br>
 						REV. No. 0.1 <br>
 						WEF 10-10-2015
-					</div>	
+					</div>
 				</div>
 			</div>
 		</div>
@@ -30,21 +30,21 @@
 			  		Date of Removal : <input type="date" id="date_removal" name="date_removal" placeholder="date">
 				</div>
 				<div class="form-group">
-			  		Reason of Removal : 
+			  		Reason of Removal :
 			  		<input type="radio" name="reason_removal" id="reason_removal" value="Infection"> Infection</input>
 			  		<input type="radio" name="reason_removal" id="reason_removal" value="Normal"> Normal</input>
-			  		<input type="radio" name="reason_removal" id="reason_removal" value="Discharge"> Discharge</input>  
+			  		<input type="radio" name="reason_removal" id="reason_removal" value="Discharge"> Discharge</input>
 				</div>
 				<div class="form-group">
 			  		Organism if isolated : <input type="textbox" id="organism_isolated" name="organism_isolated" placeholder="Organism if Isolated">
 				</div>
 			</div>
-		  
+
 		  	<div class="col-md-2 text-right">
 				<textarea class="text-right" name="" id="Addressograph" rows="3" placeholder="Addressograph Here"></textarea>
 			</div>
 		</div>
-		
+
 		<div class="row">
 		  <table class="table table-bordered">
 		    <thead>
@@ -78,8 +78,8 @@
 			  <tr>
 			    <td>1</td>
 				<td>Hand hygiene-6 steps disinfection, PPE before task</td>
-				<div class="form-group">
-				  <td><input type="checkbox" class="form-control" name="pl_00_00" id="pl_00_00" value="yes"></td>
+				<div class="form-group form-check">
+				  <td><input type="checkbox" class="form-control form-check-input" name="pl_00_00" id="pl_00_00" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="pl_00_01" id="pl_00_01" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="pl_00_02" id="pl_00_02" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="pl_00_03" id="pl_00_03" value="yes"></td>
@@ -96,10 +96,10 @@
 				  <td><input type="checkbox" class="form-control" name="pl_00_14" id="pl_00_14" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="pl_00_15" id="pl_00_15" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="pl_00_16" id="pl_00_16" value="yes"></td>
-				  <td><input type="checkbox" class="form-control" name="pl_00_17" id="pl_00_17" value="yes"></td>  
+				  <td><input type="checkbox" class="form-control" name="pl_00_17" id="pl_00_17" value="yes"></td>
 				</div>
 			  </tr>
-			  
+
 			  <tr>
 			    <td>2</td>
 				<td>Site preparation & Dressing Changes using 2% Chlorhexidine / Providine Iodine</td>
@@ -121,10 +121,10 @@
 				  <td><input type="checkbox" class="form-control" name="pl_01_14" id="pl_01_14" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="pl_01_15" id="pl_01_15" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="pl_01_16" id="pl_01_16" value="yes"></td>
-				  <td><input type="checkbox" class="form-control" name="pl_01_17" id="pl_01_17" value="yes"></td>  
+				  <td><input type="checkbox" class="form-control" name="pl_01_17" id="pl_01_17" value="yes"></td>
 				</div>
 			  </tr>
-			  
+
 			  <tr>
 			    <td>3</td>
 				<td>Site Labelled - Date & Time </td>
@@ -146,10 +146,10 @@
 				  <td><input type="checkbox" class="form-control" name="pl_02_14" id="pl_02_14" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="pl_02_15" id="pl_02_15" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="pl_02_16" id="pl_02_16" value="yes"></td>
-				  <td><input type="checkbox" class="form-control" name="pl_02_17" id="pl_02_17" value="yes"></td>  
+				  <td><input type="checkbox" class="form-control" name="pl_02_17" id="pl_02_17" value="yes"></td>
 				</div>
 			  </tr>
-			  
+
 			  <tr>
 			    <td>4</td>
 				<td>Dressing change (Transparent SemiPermeable ) 3 to 4 days or when required.</td>
@@ -171,10 +171,10 @@
 				  <td><input type="checkbox" class="form-control" name="pl_03_14" id="pl_03_14" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="pl_03_15" id="pl_03_15" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="pl_03_16" id="pl_03_16" value="yes"></td>
-				  <td><input type="checkbox" class="form-control" name="pl_03_17" id="pl_03_17" value="yes"></td>  
+				  <td><input type="checkbox" class="form-control" name="pl_03_17" id="pl_03_17" value="yes"></td>
 				</div>
 			  </tr>
-			  
+
 			  <tr>
 			    <td>5</td>
 				<td>Inspection dressing Intact / Dampened / Loosened / Soiled</td>
@@ -196,10 +196,10 @@
 				  <td><input type="checkbox" class="form-control" name="pl_04_14" id="pl_04_14" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="pl_04_15" id="pl_04_15" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="pl_04_16" id="pl_04_16" value="yes"></td>
-				  <td><input type="checkbox" class="form-control" name="pl_04_17" id="pl_04_17" value="yes"></td>  
+				  <td><input type="checkbox" class="form-control" name="pl_04_17" id="pl_04_17" value="yes"></td>
 				</div>
 			  </tr>
-			  
+
 			  <tr>
 			    <td>6</td>
 				<td>Flushing with ACL Flushing protocol. Use only Single Use prefilled 0.9% NS (Posiflush) / Single USE sterile NS Vials</td>
@@ -221,10 +221,10 @@
 				  <td><input type="checkbox" class="form-control" name="pl_05_14" id="pl_05_14" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="pl_05_15" id="pl_05_15" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="pl_05_16" id="pl_05_16" value="yes"></td>
-				  <td><input type="checkbox" class="form-control" name="pl_05_17" id="pl_05_17" value="yes"></td> 
+				  <td><input type="checkbox" class="form-control" name="pl_05_17" id="pl_05_17" value="yes"></td>
 				</div>
 			  </tr>
-			  
+
 			  <tr>
 			    <td>7</td>
 				<td>Wipe top of vial/bag with spirit or sterillum before withdrawing medicine/ solution.</td>
@@ -246,10 +246,10 @@
 				  <td><input type="checkbox" class="form-control" name="pl_06_14" id="pl_06_14" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="pl_06_15" id="pl_06_15" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="pl_06_16" id="pl_06_16" value="yes"></td>
-				  <td><input type="checkbox" class="form-control" name="pl_06_17" id="pl_06_17" value="yes"></td>  
+				  <td><input type="checkbox" class="form-control" name="pl_06_17" id="pl_06_17" value="yes"></td>
 				</div>
 			  </tr>
-			  
+
 			  <tr>
 			    <td>8</td>
 				<td>Date of administration Set - Change Intermittent - 24 hrs, Continuous - 48 - 72hrs, Blood 4hrs, TPN 24hrs</td>
@@ -271,10 +271,10 @@
 				  <td><input type="checkbox" class="form-control" name="pl_07_14" id="pl_07_14" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="pl_07_15" id="pl_07_15" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="pl_07_16" id="pl_07_16" value="yes"></td>
-				  <td><input type="checkbox" class="form-control" name="pl_07_17" id="pl_07_17" value="yes"></td> 
+				  <td><input type="checkbox" class="form-control" name="pl_07_17" id="pl_07_17" value="yes"></td>
 				</div>
 			  </tr>
-			  
+
 			  <tr>
 			    <td>9</td>
 				<td>Use of split septum closed connectors (Q syte, Extension or stand alone) Clean Q syte before each use.</td>
@@ -296,10 +296,10 @@
 				  <td><input type="checkbox" class="form-control" name="pl_08_14" id="pl_08_14" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="pl_08_15" id="pl_08_15" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="pl_08_16" id="pl_08_16" value="yes"></td>
-				  <td><input type="checkbox" class="form-control" name="pl_08_17" id="pl_08_17" value="yes"></td> 
+				  <td><input type="checkbox" class="form-control" name="pl_08_17" id="pl_08_17" value="yes"></td>
 				</div>
 			  </tr>
-			  
+
 			  <tr>
 			    <td>10</td>
 				<td>Clamping of unused lines</td>
@@ -321,10 +321,10 @@
 				  <td><input type="checkbox" class="form-control" name="pl_09_14" id="pl_09_14" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="pl_09_15" id="pl_09_15" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="pl_09_16" id="pl_09_16" value="yes"></td>
-				  <td><input type="checkbox" class="form-control" name="pl_09_17" id="pl_09_17" value="yes"></td>  
+				  <td><input type="checkbox" class="form-control" name="pl_09_17" id="pl_09_17" value="yes"></td>
 				</div>
 			  </tr>
-			  
+
 			  <tr>
 			    <td>11</td>
 				<td>Daily review of line necessity / Prompt removal</td>
@@ -346,7 +346,7 @@
 				  <td><input type="checkbox" class="form-control" name="pl_10_14" id="pl_10_14" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="pl_10_15" id="pl_10_15" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="pl_10_16" id="pl_10_16" value="yes"></td>
-				  <td><input type="checkbox" class="form-control" name="pl_10_17" id="pl_10_17" value="yes"></td> 
+				  <td><input type="checkbox" class="form-control" name="pl_10_17" id="pl_10_17" value="yes"></td>
 				</div>
 			  </tr>
 			  <tr>
@@ -513,7 +513,7 @@
 						<td><input type="checkbox" name="cor_01" class="form-control" value="pg_00"></td>
 						<td><input type="checkbox" name="cor_01" class="form-control" value="pg_00"></td>
 						<td><input type="checkbox" name="cor_01" class="form-control" value="pg_00"></td>
-						<td><input type="checkbox" name="cor_01" class="form-control" value="pg_00"></td>					
+						<td><input type="checkbox" name="cor_01" class="form-control" value="pg_00"></td>
 					</tr>
 					<tr>
 						<td><input type="radio" name="ror_02" class="form-control" value="pg_00"></td>
@@ -532,7 +532,7 @@
 						<td><input type="checkbox" name="cor_02" class="form-control" value="pg_00"></td>
 						<td><input type="checkbox" name="cor_02" class="form-control" value="pg_00"></td>
 						<td><input type="checkbox" name="cor_02" class="form-control" value="pg_00"></td>
-						<td><input type="checkbox" name="cor_02" class="form-control" value="pg_00"></td>					
+						<td><input type="checkbox" name="cor_02" class="form-control" value="pg_00"></td>
 					</tr>
 					<tr>
 						<td><input type="radio" name="ror_03" class="form-control" value="pg_00"></td>
@@ -551,9 +551,9 @@
 						<td><input type="checkbox" name="cor_03" class="form-control" value="pg_00"></td>
 						<td><input type="checkbox" name="cor_03" class="form-control" value="pg_00"></td>
 						<td><input type="checkbox" name="cor_03" class="form-control" value="pg_00"></td>
-						<td><input type="checkbox" name="cor_03" class="form-control" value="pg_00"></td>					
+						<td><input type="checkbox" name="cor_03" class="form-control" value="pg_00"></td>
 					</tr>
-					
+
 				</tbody>
 			</table>
 		</div>
@@ -566,13 +566,13 @@
 			<div class="row">
 				<div class="col-md-6">
 					<h1>Foley's Catheter Bundle Checklist</h1>
-				</div>	
+				</div>
 				<div class="col-md-6">
 					<div class="text-right">
 						DOC NO. FMT/HIC/04 <br>
 						REV. No. 0.1 <br>
 						WEF 10-10-2015
-					</div>	
+					</div>
 				</div>
 			</div>
 		</div>
@@ -620,10 +620,10 @@
 				  <td><input type="checkbox" class="form-control" name="fc_00_10" id="fc_00_10" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="fc_00_11" id="fc_00_11" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="fc_00_12" id="fc_00_12" value="yes"></td>
-				  <td><input type="checkbox" class="form-control" name="fc_00_13" id="fc_00_13" value="yes"></td>  
+				  <td><input type="checkbox" class="form-control" name="fc_00_13" id="fc_00_13" value="yes"></td>
 				</div>
 			  </tr>
-			  
+
 			  <tr>
 			    <td>2</td>
 				<td>Reason for insertion of catheter documented</td>
@@ -641,10 +641,10 @@
 				  <td><input type="checkbox" class="form-control" name="fc_01_10" id="fc_01_10" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="fc_01_11" id="fc_01_11" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="fc_01_12" id="fc_01_12" value="yes"></td>
-				  <td><input type="checkbox" class="form-control" name="fc_01_13" id="fc_01_13" value="yes"></td> 
+				  <td><input type="checkbox" class="form-control" name="fc_01_13" id="fc_01_13" value="yes"></td>
 				</div>
 			  </tr>
-			  
+
 			  <tr>
 			    <td>3</td>
 				<td>Daily assessment for need of urinary catheter</td>
@@ -662,10 +662,10 @@
 				  <td><input type="checkbox" class="form-control" name="fc_02_10" id="fc_02_10" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="fc_02_11" id="fc_02_11" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="fc_02_12" id="fc_02_12" value="yes"></td>
-				  <td><input type="checkbox" class="form-control" name="fc_02_13" id="fc_02_13" value="yes"></td>  
+				  <td><input type="checkbox" class="form-control" name="fc_02_13" id="fc_02_13" value="yes"></td>
 				</div>
 			  </tr>
-			  
+
 			  <tr>
 			    <td>4</td>
 				<td>Continuous connection of catheter</td>
@@ -683,10 +683,10 @@
 				  <td><input type="checkbox" class="form-control" name="fc_03_10" id="fc_03_10" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="fc_03_11" id="fc_03_11" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="fc_03_12" id="fc_03_12" value="yes"></td>
-				  <td><input type="checkbox" class="form-control" name="fc_03_13" id="fc_03_13" value="yes"></td> 
+				  <td><input type="checkbox" class="form-control" name="fc_03_13" id="fc_03_13" value="yes"></td>
 				</div>
 			  </tr>
-			  
+
 			  <tr>
 			    <td>5</td>
 				<td>Site Labelled - Date & Time Date of change</td>
@@ -704,10 +704,10 @@
 				  <td><input type="checkbox" class="form-control" name="fc_04_10" id="fc_04_10" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="fc_04_11" id="fc_04_11" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="fc_04_12" id="fc_04_12" value="yes"></td>
-				  <td><input type="checkbox" class="form-control" name="fc_04_13" id="fc_04_13" value="yes"></td>  
+				  <td><input type="checkbox" class="form-control" name="fc_04_13" id="fc_04_13" value="yes"></td>
 				</div>
 			  </tr>
-			  
+
 			  <tr>
 			    <td>6</td>
 				<td>Daily mental hygiene performed Povidon iodine/ 1.5% Chlorhexidine. 12hrly.</td>
@@ -725,10 +725,10 @@
 				  <td><input type="checkbox" class="form-control" name="fc_05_10" id="fc_05_10" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="fc_05_11" id="fc_05_11" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="fc_05_12" id="fc_05_12" value="yes"></td>
-				  <td><input type="checkbox" class="form-control" name="fc_05_13" id="fc_05_13" value="yes"></td> 
+				  <td><input type="checkbox" class="form-control" name="fc_05_13" id="fc_05_13" value="yes"></td>
 				</div>
 			  </tr>
-			  
+
 			  <tr>
 			    <td>7</td>
 				<td>Emptying of UC bag often (2/3rd full ) into clean container</td>
@@ -746,10 +746,10 @@
 				  <td><input type="checkbox" class="form-control" name="fc_06_10" id="fc_06_10" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="fc_06_11" id="fc_06_11" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="fc_06_12" id="fc_06_12" value="yes"></td>
-				  <td><input type="checkbox" class="form-control" name="fc_06_13" id="fc_06_13" value="yes"></td> 
+				  <td><input type="checkbox" class="form-control" name="fc_06_13" id="fc_06_13" value="yes"></td>
 				</div>
 			  </tr>
-			  
+
 			  <tr>
 			    <td>8</td>
 				<td>Collecting bag below the level of bladder</td>
@@ -767,10 +767,10 @@
 				  <td><input type="checkbox" class="form-control" name="fc_07_10" id="fc_07_10" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="fc_07_11" id="fc_07_11" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="fc_07_12" id="fc_07_12" value="yes"></td>
-				  <td><input type="checkbox" class="form-control" name="fc_07_13" id="fc_07_13" value="yes"></td> 
+				  <td><input type="checkbox" class="form-control" name="fc_07_13" id="fc_07_13" value="yes"></td>
 				</div>
 			  </tr>
-			  
+
 			  <tr>
 			    <td>9</td>
 				<td>Any Change in urine character Increased sediment, Foul smell, Hematuria</td>
@@ -788,10 +788,10 @@
 				  <td><input type="checkbox" class="form-control" name="fc_08_10" id="fc_08_10" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="fc_08_11" id="fc_08_11" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="fc_08_12" id="fc_08_12" value="yes"></td>
-				  <td><input type="checkbox" class="form-control" name="fc_08_13" id="fc_08_13" value="yes"></td> 
+				  <td><input type="checkbox" class="form-control" name="fc_08_13" id="fc_08_13" value="yes"></td>
 				</div>
 			  </tr>
-			  
+
 			  <tr>
 			    <td>10</td>
 				<td>Flank / Suprapubic pain / tenderness</td>
@@ -809,10 +809,10 @@
 				  <td><input type="checkbox" class="form-control" name="fc_09_10" id="fc_09_10" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="fc_09_11" id="fc_09_11" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="fc_09_12" id="fc_09_12" value="yes"></td>
-				  <td><input type="checkbox" class="form-control" name="fc_09_13" id="fc_09_13" value="yes"></td> 
+				  <td><input type="checkbox" class="form-control" name="fc_09_13" id="fc_09_13" value="yes"></td>
 				</div>
 			  </tr>
-			  
+
 			  <tr>
 			    <td>11</td>
 				<td>Decreased Functional status</td>
@@ -830,7 +830,7 @@
 				  <td><input type="checkbox" class="form-control" name="fc_10_10" id="fc_10_10" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="fc_10_11" id="fc_10_11" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="fc_10_12" id="fc_10_12" value="yes"></td>
-				  <td><input type="checkbox" class="form-control" name="fc_10_13" id="fc_10_13" value="yes"></td> 
+				  <td><input type="checkbox" class="form-control" name="fc_10_13" id="fc_10_13" value="yes"></td>
 				</div>
 			  </tr>
 
@@ -851,7 +851,7 @@
 				  <td><input type="checkbox" class="form-control" name="fc_11_10" id="fc_11_10" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="fc_11_11" id="fc_11_11" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="fc_11_12" id="fc_11_12" value="yes"></td>
-				  <td><input type="checkbox" class="form-control" name="fc_11_13" id="fc_11_13" value="yes"></td> 
+				  <td><input type="checkbox" class="form-control" name="fc_11_13" id="fc_11_13" value="yes"></td>
 				</div>
 			  </tr>
 
@@ -872,7 +872,7 @@
 				  <td><input type="checkbox" class="form-control" name="fc_12_10" id="fc_12_10" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="fc_12_11" id="fc_12_11" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="fc_12_12" id="fc_12_12" value="yes"></td>
-				  <td><input type="checkbox" class="form-control" name="fc_12_13" id="fc_12_13" value="yes"></td> 
+				  <td><input type="checkbox" class="form-control" name="fc_12_13" id="fc_12_13" value="yes"></td>
 				</div>
 			  </tr>
 
@@ -893,7 +893,7 @@
 				  <td><input type="checkbox" class="form-control" name="fc_13_10" id="fc_13_10" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="fc_13_11" id="fc_13_11" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="fc_13_12" id="fc_13_12" value="yes"></td>
-				  <td><input type="checkbox" class="form-control" name="fc_13_13" id="fc_13_13" value="yes"></td> 
+				  <td><input type="checkbox" class="form-control" name="fc_13_13" id="fc_13_13" value="yes"></td>
 				</div>
 			  </tr>
 
@@ -914,7 +914,7 @@
 				  <td><input type="checkbox" class="form-control" name="fc_14_10" id="fc_14_10" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="fc_14_11" id="fc_14_11" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="fc_14_12" id="fc_14_12" value="yes"></td>
-				  <td><input type="checkbox" class="form-control" name="fc_14_13" id="fc_14_13" value="yes"></td> 
+				  <td><input type="checkbox" class="form-control" name="fc_14_13" id="fc_14_13" value="yes"></td>
 				</div>
 			  </tr>
 
@@ -970,13 +970,13 @@
 			<div class="row">
 				<div class="col-md-6">
 					<h1>Central Line Bundle Checklist</h1>
-				</div>	
+				</div>
 				<div class="col-md-6">
 					<div class="text-right">
 						DOC NO. FMT/HIC/02 <br>
 						REV. No. 0.1 <br>
 						WEF 10-10-2015
-					</div>	
+					</div>
 				</div>
 			</div>
 		</div>
@@ -1048,10 +1048,10 @@
 				  <td><input type="checkbox" class="form-control" name="cl_00_10" id="cl_00_10" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="cl_00_11" id="cl_00_11" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="cl_00_12" id="cl_00_12" value="yes"></td>
-				  <td><input type="checkbox" class="form-control" name="cl_00_13" id="cl_00_13" value="yes"></td>  
+				  <td><input type="checkbox" class="form-control" name="cl_00_13" id="cl_00_13" value="yes"></td>
 				</div>
 			  </tr>
-			  
+
 			  <tr>
 			    <td>2</td>
 				<td>Site preparation & Dressing changes using Povidine iodine / 2% Chlorhexidine</td>
@@ -1069,10 +1069,10 @@
 				  <td><input type="checkbox" class="form-control" name="cl_01_10" id="cl_01_10" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="cl_01_11" id="cl_01_11" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="cl_01_12" id="cl_01_12" value="yes"></td>
-				  <td><input type="checkbox" class="form-control" name="cl_01_13" id="cl_01_13" value="yes"></td> 
+				  <td><input type="checkbox" class="form-control" name="cl_01_13" id="cl_01_13" value="yes"></td>
 				</div>
 			  </tr>
-			  
+
 			  <tr>
 			    <td>3</td>
 				<td>Site Labelled - Date & Time</td>
@@ -1090,10 +1090,10 @@
 				  <td><input type="checkbox" class="form-control" name="cl_02_10" id="cl_02_10" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="cl_02_11" id="cl_02_11" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="cl_02_12" id="cl_02_12" value="yes"></td>
-				  <td><input type="checkbox" class="form-control" name="cl_02_13" id="cl_02_13" value="yes"></td>  
+				  <td><input type="checkbox" class="form-control" name="cl_02_13" id="cl_02_13" value="yes"></td>
 				</div>
 			  </tr>
-			  
+
 			  <tr>
 			    <td>4</td>
 				<td>Daily review of line necessity / Prompt removal</td>
@@ -1111,10 +1111,10 @@
 				  <td><input type="checkbox" class="form-control" name="cl_03_10" id="cl_03_10" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="cl_03_11" id="cl_03_11" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="cl_03_12" id="cl_03_12" value="yes"></td>
-				  <td><input type="checkbox" class="form-control" name="cl_03_13" id="cl_03_13" value="yes"></td> 
+				  <td><input type="checkbox" class="form-control" name="cl_03_13" id="cl_03_13" value="yes"></td>
 				</div>
 			  </tr>
-			  
+
 			  <tr>
 			    <td>5</td>
 				<td>Inspection dressing Intact / Dampened / Loosened / Soiled</td>
@@ -1132,10 +1132,10 @@
 				  <td><input type="checkbox" class="form-control" name="cl_04_10" id="cl_04_10" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="cl_04_11" id="cl_04_11" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="cl_04_12" id="cl_04_12" value="yes"></td>
-				  <td><input type="checkbox" class="form-control" name="cl_04_13" id="cl_04_13" value="yes"></td>  
+				  <td><input type="checkbox" class="form-control" name="cl_04_13" id="cl_04_13" value="yes"></td>
 				</div>
 			  </tr>
-			  
+
 			  <tr>
 			    <td>6</td>
 				<td>Redness / Swelling / Pus / Phlebitis</td>
@@ -1153,10 +1153,10 @@
 				  <td><input type="checkbox" class="form-control" name="cl_05_10" id="cl_05_10" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="cl_05_11" id="cl_05_11" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="cl_05_12" id="cl_05_12" value="yes"></td>
-				  <td><input type="checkbox" class="form-control" name="cl_05_13" id="cl_05_13" value="yes"></td> 
+				  <td><input type="checkbox" class="form-control" name="cl_05_13" id="cl_05_13" value="yes"></td>
 				</div>
 			  </tr>
-			  
+
 			  <tr>
 			    <td>7</td>
 				<td>Dressing Change - Transparent 7 days or when required /Gauze every 24-48 hrs</td>
@@ -1174,10 +1174,10 @@
 				  <td><input type="checkbox" class="form-control" name="cl_06_10" id="cl_06_10" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="cl_06_11" id="cl_06_11" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="cl_06_12" id="cl_06_12" value="yes"></td>
-				  <td><input type="checkbox" class="form-control" name="cl_06_13" id="cl_06_13" value="yes"></td> 
+				  <td><input type="checkbox" class="form-control" name="cl_06_13" id="cl_06_13" value="yes"></td>
 				</div>
 			  </tr>
-			  
+
 			  <tr>
 			    <td>8</td>
 				<td>Flushing by ACL Single Use Prefilled 0.9% NS (Posiflush) / Single Use sterile NS Vials.</td>
@@ -1195,10 +1195,10 @@
 				  <td><input type="checkbox" class="form-control" name="cl_07_10" id="cl_07_10" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="cl_07_11" id="cl_07_11" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="cl_07_12" id="cl_07_12" value="yes"></td>
-				  <td><input type="checkbox" class="form-control" name="cl_07_13" id="cl_07_13" value="yes"></td> 
+				  <td><input type="checkbox" class="form-control" name="cl_07_13" id="cl_07_13" value="yes"></td>
 				</div>
 			  </tr>
-			  
+
 			  <tr>
 			    <td>9</td>
 				<td>Disinfect top of vial/bag before withdrawing medicine</td>
@@ -1216,10 +1216,10 @@
 				  <td><input type="checkbox" class="form-control" name="cl_08_10" id="cl_08_10" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="cl_08_11" id="cl_08_11" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="cl_08_12" id="cl_08_12" value="yes"></td>
-				  <td><input type="checkbox" class="form-control" name="cl_08_13" id="cl_08_13" value="yes"></td> 
+				  <td><input type="checkbox" class="form-control" name="cl_08_13" id="cl_08_13" value="yes"></td>
 				</div>
 			  </tr>
-			  
+
 			  <tr>
 			    <td>10</td>
 				<td>Alcohol disinfection of hub before each access</td>
@@ -1237,10 +1237,10 @@
 				  <td><input type="checkbox" class="form-control" name="cl_09_10" id="cl_09_10" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="cl_09_11" id="cl_09_11" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="cl_09_12" id="cl_09_12" value="yes"></td>
-				  <td><input type="checkbox" class="form-control" name="cl_09_13" id="cl_09_13" value="yes"></td> 
+				  <td><input type="checkbox" class="form-control" name="cl_09_13" id="cl_09_13" value="yes"></td>
 				</div>
 			  </tr>
-			  
+
 			  <tr>
 			    <td>11</td>
 				<td>Date of administration set - Change Intermittent - 24 hrs, Continuous - 48 -72 hrs, Blood 4hrs, TPN - 24hrs.</td>
@@ -1258,7 +1258,7 @@
 				  <td><input type="checkbox" class="form-control" name="cl_10_10" id="cl_10_10" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="cl_10_11" id="cl_10_11" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="cl_10_12" id="cl_10_12" value="yes"></td>
-				  <td><input type="checkbox" class="form-control" name="cl_10_13" id="cl_10_13" value="yes"></td> 
+				  <td><input type="checkbox" class="form-control" name="cl_10_13" id="cl_10_13" value="yes"></td>
 				</div>
 			  </tr>
 
@@ -1279,7 +1279,7 @@
 				  <td><input type="checkbox" class="form-control" name="cl_11_10" id="cl_11_10" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="cl_11_11" id="cl_11_11" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="cl_11_12" id="cl_11_12" value="yes"></td>
-				  <td><input type="checkbox" class="form-control" name="cl_11_13" id="cl_11_13" value="yes"></td> 
+				  <td><input type="checkbox" class="form-control" name="cl_11_13" id="cl_11_13" value="yes"></td>
 				</div>
 			  </tr>
 
@@ -1300,7 +1300,7 @@
 				  <td><input type="checkbox" class="form-control" name="cl_12_10" id="cl_12_10" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="cl_12_11" id="cl_12_11" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="cl_12_12" id="cl_12_12" value="yes"></td>
-				  <td><input type="checkbox" class="form-control" name="cl_12_13" id="cl_12_13" value="yes"></td> 
+				  <td><input type="checkbox" class="form-control" name="cl_12_13" id="cl_12_13" value="yes"></td>
 				</div>
 			  </tr>
 
@@ -1321,7 +1321,7 @@
 				  <td><input type="checkbox" class="form-control" name="cl_13_10" id="cl_13_10" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="cl_13_11" id="cl_13_11" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="cl_13_12" id="cl_13_12" value="yes"></td>
-				  <td><input type="checkbox" class="form-control" name="cl_13_13" id="cl_13_13" value="yes"></td> 
+				  <td><input type="checkbox" class="form-control" name="cl_13_13" id="cl_13_13" value="yes"></td>
 				</div>
 			  </tr>
 
@@ -1342,7 +1342,7 @@
 				  <td><input type="checkbox" class="form-control" name="cl_14_10" id="cl_14_10" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="cl_14_11" id="cl_14_11" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="cl_14_12" id="cl_14_12" value="yes"></td>
-				  <td><input type="checkbox" class="form-control" name="cl_14_13" id="cl_14_13" value="yes"></td> 
+				  <td><input type="checkbox" class="form-control" name="cl_14_13" id="cl_14_13" value="yes"></td>
 				</div>
 			  </tr>
 
@@ -1397,13 +1397,13 @@
 			<div class="row">
 				<div class="col-md-6">
 					<h1>VAP Bundle Checklist</h1>
-				</div>	
+				</div>
 				<div class="col-md-6">
 					<div class="text-right">
 						DOC NO. FMT/HIC/03 <br>
 						REV. No. 0.1 <br>
 						WEF 10-10-2015
-					</div>	
+					</div>
 				</div>
 			</div>
 		</div>
@@ -1475,10 +1475,10 @@
 				  <td><input type="checkbox" class="form-control" name="vap_00_10" id="vap_00_10" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="vap_00_11" id="vap_00_11" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="vap_00_12" id="vap_00_12" value="yes"></td>
-				  <td><input type="checkbox" class="form-control" name="vap_00_13" id="vap_00_13" value="yes"></td>  
+				  <td><input type="checkbox" class="form-control" name="vap_00_13" id="vap_00_13" value="yes"></td>
 				</div>
 			  </tr>
-			  
+
 			  <tr>
 			    <td>2</td>
 				<td>Chlorhexidine mouthwash (every Shift) Patient</td>
@@ -1496,10 +1496,10 @@
 				  <td><input type="checkbox" class="form-control" name="vap_01_10" id="vap_01_10" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="vap_01_11" id="vap_01_11" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="vap_01_12" id="vap_01_12" value="yes"></td>
-				  <td><input type="checkbox" class="form-control" name="vap_01_13" id="vap_01_13" value="yes"></td> 
+				  <td><input type="checkbox" class="form-control" name="vap_01_13" id="vap_01_13" value="yes"></td>
 				</div>
 			  </tr>
-			  
+
 			  <tr>
 			    <td>3</td>
 				<td>Ventilation of patient justified by healthcare team</td>
@@ -1517,10 +1517,10 @@
 				  <td><input type="checkbox" class="form-control" name="vap_02_10" id="vap_02_10" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="vap_02_11" id="vap_02_11" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="vap_02_12" id="vap_02_12" value="yes"></td>
-				  <td><input type="checkbox" class="form-control" name="vap_02_13" id="vap_02_13" value="yes"></td>  
+				  <td><input type="checkbox" class="form-control" name="vap_02_13" id="vap_02_13" value="yes"></td>
 				</div>
 			  </tr>
-			  
+
 			  <tr>
 			    <td>4</td>
 				<td>Head of the bed more than 30 degree</td>
@@ -1538,10 +1538,10 @@
 				  <td><input type="checkbox" class="form-control" name="vap_03_10" id="vap_03_10" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="vap_03_11" id="vap_03_11" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="vap_03_12" id="vap_03_12" value="yes"></td>
-				  <td><input type="checkbox" class="form-control" name="vap_03_13" id="vap_03_13" value="yes"></td> 
+				  <td><input type="checkbox" class="form-control" name="vap_03_13" id="vap_03_13" value="yes"></td>
 				</div>
 			  </tr>
-			  
+
 			  <tr>
 			    <td>5</td>
 				<td>Daily sedation interruption</td>
@@ -1559,10 +1559,10 @@
 				  <td><input type="checkbox" class="form-control" name="vap_04_10" id="vap_04_10" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="vap_04_11" id="vap_04_11" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="vap_04_12" id="vap_04_12" value="yes"></td>
-				  <td><input type="checkbox" class="form-control" name="vap_04_13" id="vap_04_13" value="yes"></td>  
+				  <td><input type="checkbox" class="form-control" name="vap_04_13" id="vap_04_13" value="yes"></td>
 				</div>
 			  </tr>
-			  
+
 			  <tr>
 			    <td>6</td>
 				<td>Insulin therapy to keep blood sugar 140-160mg/dL</td>
@@ -1580,10 +1580,10 @@
 				  <td><input type="checkbox" class="form-control" name="vap_05_10" id="vap_05_10" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="vap_05_11" id="vap_05_11" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="vap_05_12" id="vap_05_12" value="yes"></td>
-				  <td><input type="checkbox" class="form-control" name="vap_05_13" id="vap_05_13" value="yes"></td> 
+				  <td><input type="checkbox" class="form-control" name="vap_05_13" id="vap_05_13" value="yes"></td>
 				</div>
 			  </tr>
-			  
+
 			  <tr>
 			    <td>7</td>
 				<td>ET tube cuff pressure monitoring ( Every shift - Target 20cms H2O)</td>
@@ -1601,10 +1601,10 @@
 				  <td><input type="checkbox" class="form-control" name="vap_06_10" id="vap_06_10" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="vap_06_11" id="vap_06_11" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="vap_06_12" id="vap_06_12" value="yes"></td>
-				  <td><input type="checkbox" class="form-control" name="vap_06_13" id="vap_06_13" value="yes"></td> 
+				  <td><input type="checkbox" class="form-control" name="vap_06_13" id="vap_06_13" value="yes"></td>
 				</div>
 			  </tr>
-			  
+
 			  <tr>
 			    <td>8</td>
 				<td>Daily Assessment of readiness to wean or extubate (Doctor to evaluate)</td>
@@ -1622,10 +1622,10 @@
 				  <td><input type="checkbox" class="form-control" name="vap_07_10" id="vap_07_10" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="vap_07_11" id="vap_07_11" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="vap_07_12" id="vap_07_12" value="yes"></td>
-				  <td><input type="checkbox" class="form-control" name="vap_07_13" id="vap_07_13" value="yes"></td> 
+				  <td><input type="checkbox" class="form-control" name="vap_07_13" id="vap_07_13" value="yes"></td>
 				</div>
 			  </tr>
-			  
+
 			  <tr>
 			    <td>9</td>
 				<td>Daily spontaneous breathing trial (Doctor to evaluate)</td>
@@ -1643,10 +1643,10 @@
 				  <td><input type="checkbox" class="form-control" name="vap_08_10" id="vap_08_10" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="vap_08_11" id="vap_08_11" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="vap_08_12" id="vap_08_12" value="yes"></td>
-				  <td><input type="checkbox" class="form-control" name="vap_08_13" id="vap_08_13" value="yes"></td> 
+				  <td><input type="checkbox" class="form-control" name="vap_08_13" id="vap_08_13" value="yes"></td>
 				</div>
 			  </tr>
-			  
+
 			  <tr>
 			    <td>10</td>
 				<td>Peptic ulcer disease (PUD) prophylaxis (eg. Ranitidine)</td>
@@ -1664,10 +1664,10 @@
 				  <td><input type="checkbox" class="form-control" name="vap_09_10" id="vap_09_10" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="vap_09_11" id="vap_09_11" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="vap_09_12" id="vap_09_12" value="yes"></td>
-				  <td><input type="checkbox" class="form-control" name="vap_09_13" id="vap_09_13" value="yes"></td> 
+				  <td><input type="checkbox" class="form-control" name="vap_09_13" id="vap_09_13" value="yes"></td>
 				</div>
 			  </tr>
-			  
+
 			  <tr>
 			    <td>11</td>
 				<td>Sterile fluid used for nebulization</td>
@@ -1685,7 +1685,7 @@
 				  <td><input type="checkbox" class="form-control" name="vap_10_10" id="vap_10_10" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="vap_10_11" id="vap_10_11" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="vap_10_12" id="vap_10_12" value="yes"></td>
-				  <td><input type="checkbox" class="form-control" name="vap_10_13" id="vap_10_13" value="yes"></td> 
+				  <td><input type="checkbox" class="form-control" name="vap_10_13" id="vap_10_13" value="yes"></td>
 				</div>
 			  </tr>
 
@@ -1706,7 +1706,7 @@
 				  <td><input type="checkbox" class="form-control" name="vap_11_10" id="vap_11_10" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="vap_11_11" id="vap_11_11" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="vap_11_12" id="vap_11_12" value="yes"></td>
-				  <td><input type="checkbox" class="form-control" name="vap_11_13" id="vap_11_13" value="yes"></td> 
+				  <td><input type="checkbox" class="form-control" name="vap_11_13" id="vap_11_13" value="yes"></td>
 				</div>
 			  </tr>
 
@@ -1727,7 +1727,7 @@
 				  <td><input type="checkbox" class="form-control" name="vap_12_10" id="vap_12_10" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="vap_12_11" id="vap_12_11" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="vap_12_12" id="vap_12_12" value="yes"></td>
-				  <td><input type="checkbox" class="form-control" name="vap_12_13" id="vap_12_13" value="yes"></td> 
+				  <td><input type="checkbox" class="form-control" name="vap_12_13" id="vap_12_13" value="yes"></td>
 				</div>
 			  </tr>
 
@@ -1748,7 +1748,7 @@
 				  <td><input type="checkbox" class="form-control" name="vap_13_10" id="vap_13_10" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="vap_13_11" id="vap_13_11" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="vap_13_12" id="vap_13_12" value="yes"></td>
-				  <td><input type="checkbox" class="form-control" name="vap_13_13" id="vap_13_13" value="yes"></td> 
+				  <td><input type="checkbox" class="form-control" name="vap_13_13" id="vap_13_13" value="yes"></td>
 				</div>
 			  </tr>
 
@@ -1769,7 +1769,7 @@
 				  <td><input type="checkbox" class="form-control" name="vap_14_10" id="vap_14_10" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="vap_14_11" id="vap_14_11" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="vap_14_12" id="vap_14_12" value="yes"></td>
-				  <td><input type="checkbox" class="form-control" name="vap_14_13" id="vap_14_13" value="yes"></td> 
+				  <td><input type="checkbox" class="form-control" name="vap_14_13" id="vap_14_13" value="yes"></td>
 				</div>
 			  </tr>
 
@@ -1790,7 +1790,7 @@
 				  <td><input type="checkbox" class="form-control" name="vap_15_10" id="vap_15_10" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="vap_15_11" id="vap_15_11" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="vap_15_12" id="vap_15_12" value="yes"></td>
-				  <td><input type="checkbox" class="form-control" name="vap_15_13" id="vap_15_13" value="yes"></td> 
+				  <td><input type="checkbox" class="form-control" name="vap_15_13" id="vap_15_13" value="yes"></td>
 				</div>
 			  </tr>
 
@@ -1811,7 +1811,7 @@
 				  <td><input type="checkbox" class="form-control" name="vap_16_10" id="vap_16_10" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="vap_16_11" id="vap_16_11" value="yes"></td>
 				  <td><input type="checkbox" class="form-control" name="vap_16_12" id="vap_16_12" value="yes"></td>
-				  <td><input type="checkbox" class="form-control" name="vap_16_13" id="vap_16_13" value="yes"></td> 
+				  <td><input type="checkbox" class="form-control" name="vap_16_13" id="vap_16_13" value="yes"></td>
 				</div>
 			  </tr>
 

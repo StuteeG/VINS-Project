@@ -1,90 +1,143 @@
 <html>
 <head>
 	<title>
-		Pateint Detail Form
+		Patient Detail Form
 	</title>
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
-
-<div class="container">
-	<div class="page-header">
-		<div class="row">
-			<div class="col-md-6">
-			<h1>Patient Details Form</h1>
-			</div>
-			<div class="col-md-6">
-				<div class="text-right">
-					F/OPD/01
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<form id="patientdetailform">
-
-		<div class="row form-group">
-			<div class="col-md-6">
+<body>
+	<div class="container">
+		<div class="page-header">
+			<div class="row">
 				<div class="col-md-6">
-					<label>Date : </label>
+				<h1>Patient Details Form</h1>
 				</div>
 				<div class="col-md-6">
-					<input class="form-control" type = "date" id = "date" name="date">
-				</div>
-			</div>
-			<div class="col-md-6">
-				<div class="col-md-6">
-					<label>Time : </label>
-				</div>
-				<div class="col-md-6">
-					<input class="form-control" type="time" name="time" />
+					<div class="text-right">
+						F/OPD/01
+					</div>
 				</div>
 			</div>
 		</div>
 
-		<div class="row form-group">
-			<div class="col-md-4">
+		<form id="patientdetailform">
+			<div class="row form-group">
+				<div class="col-md-6">
 					<div class="col-md-6">
-						<label>First Name : </label>
+						<label for="date">Date : </label>
 					</div>
 					<div class="col-md-6">
-						<input class="form-control" type = "text" id = "first_name" />
+						<input class="form-control" type = "date" id = "date" name="date">
 					</div>
-			</div>
-			<div class="col-md-4">
-				<div class="col-md-6">
-					<label>Middle Name</label>
 				</div>
 				<div class="col-md-6">
-					<input class="form-control" type="text" name="middle_name" />
-				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="col-md-6">
-					<label>Last Name</label>
-				</div>
-				<div class="col-md-6">
-					<input class="form-control" type="text" name="last_name" />
+					<div class="col-md-6">
+						<label for="time">Time : </label>
+					</div>
+					<div class="col-md-6">
+						<input class="form-control" type="time" name="time" />
+					</div>
 				</div>
 			</div>
 
-		</div>
-
-
-		<div class="row form-group">
-
-		</div>
-
-
-				 <div class = "col-md 6">
-				 <br><br>DATE OF BIRTH <input type = "date" id = "dob">  SEX <input type = "text" id = "sex" >
-				 <br><br>ADDRESS <textarea id = "address" rows = "4" ></textarea>
-				 <br><br> PHONE NO: <input type = "text" id = "ph_no" > MOBILE NO: <input type = "text" id = "mobile">
-				 <br><br> REF.DR. <input type = "text" id = "reference"> CONS.DR. <input type = "text" id = "consultant">
-				 <br> <br><br><br>Signature Patient/ Relative
-				 <br><br> CASE <input type = "radio" name = "new" value = "new"> NEW <input type = "radio" name = "old" value = "old"> OLD
-				<br><br> <input type  = "submit" text-align = "center">
+			<div class="row form-group">
+				<div class="col-md-4">
+						<div class="col-md-6">
+							<label for="first_name">First Name : </label>
+						</div>
+						<div class="col-md-6">
+							<input class="form-control" type = "text" id = "first_name" name="first_name"/>
+						</div>
 				</div>
+				<div class="col-md-4">
+					<div class="col-md-6">
+						<label for="middle_name">Middle Name</label>
+					</div>
+					<div class="col-md-6">
+						<input class="form-control" type="text" id="middle_name" name="middle_name" />
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="col-md-6">
+						<label for="middle_name">Last Name</label>
+					</div>
+					<div class="col-md-6">
+						<input class="form-control" type="text" id="last_name" name="last_name"/>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="row form-group">
+				<div class="col-md-2">
+					<label class="control-label" for="date_of_birth">Date of Birth: </label>
+				</div>
+				<div class="col-md-4">
+					<input class="form-control" type="date" id="date_of_birth" name="date_of_birth"/>
+				</div>
+				<div class="col-md-2">
+					<label class="control-label" for="sex">Sex: </label>
+				</div>
+				<div class="col-md-4">
+					<select class="form-control" id="sex" name="sex">
+						<option value="male">Male</option>
+						<option value="female">Female</option>
+					</select>
+				</div>
+			</div>
+			<div class="row form-group">
+				<div class="col-md-2">
+
+				</div>
+				<div class="col-md-3">
+					<label class="control-label" for="address">Address: </label>
+				</div>
+				<div class="col-md-5">
+					<textarea class="form-control" type="date" id="address" name="address"/> </textarea>
+				</div>
+				<div class="col-md-2">
+
+				</div>
+			</div>
+			<div class="row form-group">
+				<div class="col-md-2">
+					<label class="control-label" for="phone_no">Phone no.: </label>
+				</div>
+				<div class="col-md-4">
+					<input class="form-control" type="text" id="phone_no" name="phone_no"/>
+				</div>
+				<div class="col-md-2">
+					<label class="control-label" for="mobile_no">Mobile no.: </label>
+				</div>
+				<div class="col-md-4">
+					<input class="form-control" type="text" id="mobile_no" name="mobile_no"/>
+				</div>
+			</div>
+			<div class="row form-group">
+				<div class="col-md-2">
+					<label class="control-label" for="reference_dr">Reference Dr.: </label>
+				</div>
+				<div class="col-md-4">
+					<input class="form-control" type="text" id="reference_dr" name="reference_dr"/>
+				</div>
+				<div class="col-md-2">
+					<label class="control-label" for="consulting_dr">Consulting Dr..: </label>
+				</div>
+				<div class="col-md-4">
+					<input class="form-control" type="text" id="consulting_dr" name="consulting_dr"/>
+				</div>
+			</div>
+			<div class="row form-group">
+				<div class="col-md-2">
+					<label class="control-label" for="case">Case: </label>
+				</div>
+				<div class="col-md-4">
+					<select class="form-control" id="case" name="case">
+						<option value="new">New</option>
+						<option value="old">Old</option>
+					</select>
+				</div>
+			</div>
+		</form>
 	</div>
-
-	</form>
-</div>
+</body
