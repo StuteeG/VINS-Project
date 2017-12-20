@@ -14,7 +14,7 @@
 
 			var rowCount = table.rows.length;
 			var row = table.insertRow(rowCount);
-			row.className = "";
+			row.className = "form-check";
 			rowCount = rowCount-4;
 
 			var cell0 = row.insertCell(0);
