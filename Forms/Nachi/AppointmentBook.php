@@ -5,10 +5,10 @@
 		Appointment Book
 	</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">	
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
 	<SCRIPT language="javascript">
-		
+
 		function addRowM(morning_appointmentbook) {
 
 			var table = document.getElementById("morning_appointmentbook");
@@ -80,7 +80,7 @@
 
 			var rowCount = table.rows.length;
 			var row = table.insertRow(rowCount);
-			
+
 			row.className = "form-group";
 			rowCount=rowCount-2;
 
@@ -204,4 +204,4 @@
 		</div>
 	</form>
 </div>
-</html>	
+</html>
