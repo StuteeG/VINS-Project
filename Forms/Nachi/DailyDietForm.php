@@ -168,22 +168,33 @@
 			</div>
 		</div>
 
-	<div class="col-md-10">
-		<label class="control-label col-md-2" for="floor_name">Floor Name:</label>
-		<div class="col-md-3">
-			<input type="text" class="form-control" name="floor_name" id="floor_name">
+	<div class="row form-group">
+		<div class="col-md-10">
+			<div class="col-md-6">
+				<div class="row">
+					<div class="col-md-6">
+						<label>Floor Name : </label>
+					</div>
+					<div class="col-md-6">
+						<input type="text" class="form-control" name="floor_name" id="floor_name">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<label>Cross Verified By:</label>
+					</div>
+					<div class="col-md-6">
+						<input type="text" class="form-control" name="cross_verified_by" id="cross_verified_by">
+					</div>
+				</div>
+			</div>
 		</div>
-		<label class="control-label col-md-3" for="cross_verified_by">Cross Verified By:</label>
-		<div class="col-md-3">
-			<input type="text" class="form-control" name="cross_verified_by" id="cross_verified_by">
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-md-2 text-right">
-			<textarea class="text-right form-control" name="" id="Addressograph" rows="3" placeholder="Addressograph Here"></textarea>
+		<div class="col-md-2">
+			<textarea class="form-control" name="addressograph" placeholder="Addressograph Here"></textarea>
 		</div>
 	</div>
 	<hr>
+
 	<div class="row form-group form-check">
 		<table class="table table-bordered table-condensed small" name="dailydietform" id="dailydietform">
 			<thead>
