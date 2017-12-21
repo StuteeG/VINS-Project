@@ -403,6 +403,55 @@
 				<input class="form-control" type="text" name="any_other" placeholder="If any other" />
 			</div>
 		</div>
+
+		<div class="row form-group">
+			<div class="col-md-6">
+				<div class="col-md-6">
+		      <label>Risk to patient : </label>
+				</div>
+				<div class="col-md-6">
+		      <select class="form-control" name="risk_type">
+						<option>Low Risk</option>
+						<option>Medium Risk</option>
+						<option>High Risk</option>
+					</select>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="col-md-6">
+		      <label>Reason for risk : </label>
+				</div>
+				<div class="col-md-6">
+		      <input class="form-control" type="text" name="risk_reason" placeholder="In case of Medium-High risk"
+				</div>
+			</div>
+		</div>
+
+		<div class="row form-group">
+			<div class="col-md-6">
+				<div class="col-md-6">
+		    	<label>Diet Suggested to patient : </label>
+				</div>
+				<div class="col-md-6">
+		      <select class="form-control" name="diet_suggested">
+						<option>FD</option>
+						<option>ADD</option>
+						<option>SRD</option>
+						<option>Semi solid Diet</option>
+						<option>Soft Diet</option>
+						<option>Liquid Diet</option>
+						<option>Peg Feed</option>
+						<option>RT Feed</option>
+						<option>HPD Gout Diet</option>
+						<option>Hepatic Diet</option>
+						<option>Without Chilly</option>
+						<option>Any Other</option>
+					</select>
+				</div>
+			</div>
+			<div class="col-md-6"></div>
+		</div>
+
 	</form>
 
 </div>
