@@ -422,7 +422,7 @@
 		      <label>Reason for risk : </label>
 				</div>
 				<div class="col-md-6">
-		      <input class="form-control" type="text" name="risk_reason" placeholder="In case of Medium-High risk"
+		      <input class="form-control" type="text" name="risk_reason" placeholder="In case of Medium-High risk" />
 				</div>
 			</div>
 		</div>
@@ -449,8 +449,38 @@
 					</select>
 				</div>
 			</div>
-			<div class="col-md-6"></div>
+			<div class="col-md-6">
+				<div class="col-md-6">
+					<label>Remarks : </label>
+				</div>
+				<div class="col-md-6">
+					<input class="form-control" type="text" name="remarks" placeholder="Remarks"/>
+				</div>
+			</div>
 		</div>
+
+		<div class="row form-group">
+			<table class="table table-bordered">
+				<thead>
+					<tr>
+						<th>Date</th>
+						<th>Diet</th>
+						<th>Remarks</th>
+						<th>Name</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><input class="form-control" type="date" name="date_table" /></td>
+						<td><input class="form-control" type="text" name="diet_table" /></td>
+						<td><input class="form-control" type="text" name="remarks_table" /></td>
+						<td><input class="form-control" type="text" name="name_table" /></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+
 
 	</form>
 

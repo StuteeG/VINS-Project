@@ -1,552 +1,470 @@
 <html>
 <head>
 	<title>
-		Flow Sheet
+		MAR Flow Sheet
 	</title>
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">	
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 
 <div class="container">
 	<div class="page-header">
 		<div class="row">
-			<div class="col-md-6">
-			<h1>Flow Sheet</h1>
-			</div>	
-			<div class="col-md-6">
-				<div class="text-left">
-					DOC NO. FMT/HIC/09 <br>
-					REV. No. 0.1 <br>
-					WEF 10-10-2015
-				</div>	
+			<div class="col-md-8">
+				<h1>MAR Flow Sheet</h1>
 			</div>
-			<div class = "col-md-6">
-				<div class = "text-right"> 
-					<br><br>E.T.Tube: Day  <input type="text" id="et_tube_day" >
-					&nbsp &nbsp Teeth level : <input type="text" id="teethlevel" >
-					 Artenial Line: Day <input type="text" id="artenial_line">
-					&nbsp  R.T: Day : <input type="text" id="rt_day" >
-					 &nbsp  F.C. : Day <input type="text" id="rt_day" >
-					&nbsp  Central Line: Day <input type="text" id="rt_day" >
-					 Other Invassive Line: Day <input type="text" id="rt_day" >
-				</div>
+			<div class="col-md-4 text-right">
+				DOC NO. FMT/HIC/09 <br>
+				REV. No. 0.1 <br>
+				WEF 10-10-2015
 			</div>
 		</div>
 	</div>
-	<form id="flowsheet">
+
+	<form name="marFlowSheet">
 		<div class="row">
-			
-			<div class="col-md-2 text-right">
-				<textarea class="text-right" id="Addressograph" rows="3" placeholder="Addressograph Here"></textarea>
-				
+			<div class="col-md-8">
+				<div class="row form-group">
+					<div class="col-md-6">
+						<div class="col-md-6">
+				      <label>ET Tube Day : </label>
+						</div>
+						<div class="col-md-6">
+				      <input class="form-control" type="text" name="et_tube_day" />
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="col-md-6">
+				      <label>FC Day :</label>
+						</div>
+						<div class="col-md-6">
+				      <input class="form-control" type="text" name="fc_day" />
+						</div>
+					</div>
+				</div>
+				<div class="row form-group">
+					<div class="col-md-6">
+						<div class="col-md-6">
+				      <label>Teeth Level</label>
+						</div>
+						<div class="col-md-6">
+				      <input class="form-control" type="text" name="teeth_level" />
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="col-md-6">
+				      <label>Central Line</label>
+						</div>
+						<div class="col-md-6">
+				      <input class="form-control" type="text" name="central_line" />
+						</div>
+					</div>
+				</div>
+				<div class="row form-group">
+					<div class="col-md-6">
+						<div class="col-md-6">
+				      <label>Arterial Line Day : </label>
+						</div>
+						<div class="col-md-6">
+				      <input class="form-control" type="text" name="arterial_line_day" />
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="col-md-6">
+				      <label>Other Invasive Line Day : </label>
+						</div>
+						<div class="col-md-6">
+				      <input class="form-control" type="text" name="other_invasive_line_day" />
+						</div>
+					</div>
+				</div>
+				<div class="row form-group">
+					<div class="col-md-6">
+						<div class="col-md-6">
+				      <label>RT Day : </label>
+						</div>
+						<div class="col-md-6">
+				      <input class="form-control" type="text" name="rt_day" />
+						</div>
+					</div>
+				</div>
 			</div>
-			Date: <input type = "text" id = "date" placeholder = "date"> &nbsp &nbsp Prervious 24 Hours Intake:   &nbsp &nbsp Previous Output 24 Hours: &nbsp &nbsp  Balance:
+			<div class="col-md-4">
+				<textarea class="form-control" name="addressograph" placeholder="Addressograph"></textarea>
+			</div>
 		</div>
-		
-		<div class="row">
-		  <table class="table table-bordered">
-		    <thead>
-			  <tr>
-				<th>Time</th>
-				<th>8-00</th>
-				<th>10-00</th>
-				<th>12-00</th>
-				<th>14-00</th>
-				<th>16-00</th>
-				<th>18-00</th>
-				<th>20-00</th>
-				<th>22-00</th>
-				<th>24-00</th>
-				<th>2-00</th>
-				<th>4-00</th>
-				<th>6-00</th>
-			</tr>
-			 </thead>
-			<tbody>
-			  <tr>
-				<td>Temperature</td>
-				<div class="form-group">
-				   
-				<td><input type = "text"  id = "temerature_8"></td>
-				<td><input type = "text"  id = "temerature_10"/></td>
-				<td><input type = "text"  id = "temerature_12"/></td>
-				<td><input type = "text"  id = "temerature_14"/></td>
-				<td><input type = "text"  id = "temerature_16"/></td>
-				<td><input type = "text"  id = "temerature_18"/></td>
-				<td><input type = "text"  id = "temerature_20"/></td>
-				<td><input type = "text"  id = "temerature_22"/></td>
-				<td><input type = "text"  id = "temerature_24"/></td>
-				<td><input type = "text"  id = "temerature_2"/></td>
-				<td><input type = "text"  id = "temerature_4"/></td>
-				<td><input type = "text"  id = "temerature_6"/></td>
-				
-			  </tr>
-			
+
+		<hr />
+
+		<div class="row form-group">
+			<div class="col-md-6">
+				<div class="col-md-6">
+		      <label>Date : </label>
 				</div>
-			  </tr>
-			  
-			  <tr>
-			    
-				<td>Pulse Rate/min</td>
-				<div class="form-group">
-				  <td><input type = "text"  id = "pulse_rate_8"></t>
-				<td><input type = "text"  id = "pulse_rate_10"/></td>
-				<td><input type = "text"  id = "pulse_rate_12"/></td>
-				<td><input type = "text"  id = "pulse_rate_14"/></td>
-				<td><input type = "text"  id = "pulse_rate_16"/></td>
-				<td><input type = "text"  id = "pulse_rate_18"/></td>
-				<td><input type = "text"  id = "pulse_rate_20"/></td>
-				<td><input type = "text"  id = "pulse_rate_22"/></td>
-				<td><input type = "text"  id = "pulse_rate_24"/></td>
-				<td><input type = "text"  id = "pulse_rate_2"/></td>
-				<td><input type = "text"  id = "pulse_rate_4"/></td>
-				<td><input type = "text"  id = "pulse_rate_6"/></td>
+				<div class="col-md-6">
+		      <input class="form-control" type="date" name="date" />
 				</div>
-			  </tr>
-			  
-			  <tr>
-			 
-				<td>Blood Pressure (mm of Hg) </td>
-				<div class="form-group">
-				 <td><input type = "text"  id = "bp_8"></t>
-				<td><input type = "text"  id = "bp_10"/></td>
-				<td><input type = "text"  id = "bp_12"/></td>
-				<td><input type = "text"  id = "bp_14"/></td>
-				<td><input type = "text"  id = "bp_16"/></td>
-				<td><input type = "text"  id = "bp_18"/></td>
-				<td><input type = "text"  id = "bp_20"/></td>
-				<td><input type = "text"  id = "bp_22"/></td>
-				<td><input type = "text"  id = "bp_24"/></td>
-				<td><input type = "text"  id = "bp_2"/></td>
-				<td><input type = "text"  id = "bp_4"/></td>
-				<td><input type = "text"  id = "bp_6"/></td>
+			</div>
+			<div class="col-md-6">
+				<div class="col-md-6">
+		      <label>Previous 24Hrs Intake : </label>
 				</div>
-			  </tr>
-			  
-			  <tr>
-			  
-				<td > Universal Pain Assessment.</td>
-				<div class="form-group">
-				  <td><input type = "text"  id = "pain_assessmet_8"></t>
-				<td><input type = "text"  id = "pain_assessmet_10"/></td>
-				<td><input type = "text"  id = "pain_assessmet_12"/></td>
-				<td><input type = "text"  id = "pain_assessmet_14"/></td>
-				<td><input type = "text"  id = "pain_assessmet_16"/></td>
-				<td><input type = "text"  id = "pain_assessmet_18"/></td>
-				<td><input type = "text"  id = "pain_assessmet_20"/></td>
-				<td><input type = "text"  id = "pain_assessmet_22"/></td>
-				<td><input type = "text"  id = "pain_assessmet_24"/></td>
-				<td><input type = "text"  id = "pain_assessmet_2"/></td>
-				<td><input type = "text"  id = "pain_assessmet_4"/></td>
-				<td><input type = "text"  id = "pain_assessmet_6"/></td>
+				<div class="col-md-6">
+		      <input class="form-control" type="text" name="prev_24_intake" />
 				</div>
-			  </tr>
-			  <tr> </tr>
-			  <tr>
-			 
-				<td>Intake IV Line 1 </td>
-				<div class="form-group">
-				  <td><input type = "text"  id = "intake1_8"></t>
-				<td><input type = "text"  id = "intake1_10"/></td>
-				<td><input type = "text"  id = "intake1_12"/></td>
-				<td><input type = "text"  id = "intake1_14"/></td>
-				<td><input type = "text"  id = "intake1_16"/></td>
-				<td><input type = "text"  id = "intake1_18"/></td>
-				<td><input type = "text"  id = "intake1_20"/></td>
-				<td><input type = "text"  id = "intake1_22"/></td>
-				<td><input type = "text"  id = "intake1_24"/></td>
-				<td><input type = "text"  id = "intake1_2"/></td>
-				<td><input type = "text"  id = "intake1_4"/></td>
-				<td><input type = "text"  id = "intake1_6"/></td>
-				</div>
-			  </tr>
-			  
-			  <tr>
-			    
-				<td>2</td>
-				<div class="form-group">
-				  <td><input type = "text"  id = "intake1_8"></t>
-				<td><input type = "text"  id = "intake2_10"/></td>
-				<td><input type = "text"  id = "intake2_12"/></td>
-				<td><input type = "text"  id = "intake2_14"/></td>
-				<td><input type = "text"  id = "intake2_16"/></td>
-				<td><input type = "text"  id = "intake2_18"/></td>
-				<td><input type = "text"  id = "intake2_20"/></td>
-				<td><input type = "text"  id = "intake2_22"/></td>
-				<td><input type = "text"  id = "intake2_24"/></td>
-				<td><input type = "text"  id = "intake2_2"/></td>
-				<td><input type = "text"  id = "intake2_4"/></td>
-				<td><input type = "text"  id = "intake2_6"/></td> 
-				</div>
-			  </tr>
-			  
-			   <tr>
-			    
-				<td>3</td>
-				<div class="form-group">
-				  <td><input type = "text"  id = "intake3_8"></t>
-				<td><input type = "text"  id = "intake3_10"/></td>
-				<td><input type = "text"  id = "intake3_12"/></td>
-				<td><input type = "text"  id = "intake3_14"/></td>
-				<td><input type = "text"  id = "intake3_16"/></td>
-				<td><input type = "text"  id = "intake3_18"/></td>
-				<td><input type = "text"  id = "intake3_20"/></td>
-				<td><input type = "text"  id = "intake3_22"/></td>
-				<td><input type = "text"  id = "intake3_24"/></td>
-				<td><input type = "text"  id = "intake3_2"/></td>
-				<td><input type = "text"  id = "intake3_4"/></td>
-				<td><input type = "text"  id = "intake3_6"/></td> 
-				</div>
-			  </tr>
-			  
-			   <tr>
-			    
-				<td>4</td>
-				<div class="form-group">
-				  <td><input type = "text"  id = "intake4_8"></t>
-				<td><input type = "text"  id = "intake4_10"/></td>
-				<td><input type = "text"  id = "intake4_12"/></td>
-				<td><input type = "text"  id = "intake4_14"/></td>
-				<td><input type = "text"  id = "intake4_16"/></td>
-				<td><input type = "text"  id = "intake4_18"/></td>
-				<td><input type = "text"  id = "intake4_20"/></td>
-				<td><input type = "text"  id = "intake4_22"/></td>
-				<td><input type = "text"  id = "intake4_24"/></td>
-				<td><input type = "text"  id = "intake4_2"/></td>
-				<td><input type = "text"  id = "intake4_4"/></td>
-				<td><input type = "text"  id = "intake4_6"/></td> 
-				</div>
-			  </tr>
-			  
-			   <tr>
-			    
-				<td>5</td>
-				<div class="form-group">
-				  <td><input type = "text"  id = "intake5_8"></t>
-				<td><input type = "text"  id = "intake5_10"/></td>
-				<td><input type = "text"  id = "intake5_12"/></td>
-				<td><input type = "text"  id = "intake5_14"/></td>
-				<td><input type = "text"  id = "intake5_16"/></td>
-				<td><input type = "text"  id = "intake5_18"/></td>
-				<td><input type = "text"  id = "intake5_20"/></td>
-				<td><input type = "text"  id = "intake5_22"/></td>
-				<td><input type = "text"  id = "intake5_24"/></td>
-				<td><input type = "text"  id = "intake5_2"/></td>
-				<td><input type = "text"  id = "intake5_4"/></td>
-				<td><input type = "text"  id = "intake5_6"/></td> 
-				</div>
-			  
-			  </tr>
-			  
-			  <tr>
-			    
-				<td>Hourly IV(Summation)</td>
-				<div class="form-group">
-				  <td><input type = "text"  id = "hourlyiv_8"></t>
-				<td><input type = "text"  id = "hourlyiv_10"/></td>
-				<td><input type = "text"  id = "hourlyiv_12"/></td>
-				<td><input type = "text"  id = "hourlyiv_14"/></td>
-				<td><input type = "text"  id = "hourlyiv_16"/></td>
-				<td><input type = "text"  id = "hourlyiv_18"/></td>
-				<td><input type = "text"  id = "hourlyiv_20"/></td>
-				<td><input type = "text"  id = "hourlyiv_22"/></td>
-				<td><input type = "text"  id = "hourlyiv_24"/></td>
-				<td><input type = "text"  id = "hourlyiv_2"/></td>
-				<td><input type = "text"  id = "hourlyiv_4"/></td>
-				<td><input type = "text"  id = "hourlyiv_6"/></td> 				</div>
-			  </tr>
-			  
-			  <tr>
-			    
-				<td>Total IV (Summation)</td>
-				<div class="form-group">
-				  <td><input type = "text"  id = "hourlyiv_8"></t>
-				<td><input type = "text"  id = "totaliv_10"/></td>
-				<td><input type = "text"  id = "totaliv_12"/></td>
-				<td><input type = "text"  id = "totaliv_14"/></td>
-				<td><input type = "text"  id = "totaliv_16"/></td>
-				<td><input type = "text"  id = "totaliv_18"/></td>
-				<td><input type = "text"  id = "totaliv_20"/></td>
-				<td><input type = "text"  id = "totaliv_22"/></td>
-				<td><input type = "text"  id = "totaliv_24"/></td>
-				<td><input type = "text"  id = "totaliv_2"/></td>
-				<td><input type = "text"  id = "totaliv_4"/></td>
-				<td><input type = "text"  id = "totaliv_6"/></td>   
-				</div>
-			  </tr>
-			  
-			  <tr>
-				<td>Oral/N.G.</td>
-				<div class="form-group">
-				  <td><input type = "text"  id = "oral_8"></t>
-				<td><input type = "text"  id = "oral_10"/></td>
-				<td><input type = "text"  id = "oral_12"/></td>
-				<td><input type = "text"  id = "oral_14"/></td>
-				<td><input type = "text"  id = "oral_16"/></td>
-				<td><input type = "text"  id = "oral_18"/></td>
-				<td><input type = "text"  id = "oral_20"/></td>
-				<td><input type = "text"  id = "oral_22"/></td>
-				<td><input type = "text"  id = "oral_24"/></td>
-				<td><input type = "text"  id = "oral_2"/></td>
-				<td><input type = "text"  id = "oral_4"/></td>
-				<td><input type = "text"  id = "oral_6"/></td> 
-				</div>
-			  </tr>
-			  
-			  <tr>
-				<td>Total Oral/N.G.</td>
-				<div class="form-group">
-				  <td><input type = "text"  id = "totaloral_8"></t>
-				<td><input type = "text"  id = "totaloral_10"/></td>
-				<td><input type = "text"  id = "totaloral_12"/></td>
-				<td><input type = "text"  id = "totaloral_14"/></td>
-				<td><input type = "text"  id = "totaloral_16"/></td>
-				<td><input type = "text"  id = "totaloral_18"/></td>
-				<td><input type = "text"  id = "totaloral_20"/></td>
-				<td><input type = "text"  id = "totaloral_22"/></td>
-				<td><input type = "text"  id = "totaloral_24"/></td>
-				<td><input type = "text"  id = "totaloral_2"/></td>
-				<td><input type = "text"  id = "totaloral_4"/></td>
-				<td><input type = "text"  id = "totaloral_6"/></td> 
-				</div>
-			  </tr>
-			  
-			  <tr>
-				<td>Hourly Total Intake</td>
-				<div class="form-group">
-				  <td><input type = "text"  id = "hourly_total_intake_8"></t>
-				<td><input type = "text"  id = "hourly_total_intake_10"/></td>
-				<td><input type = "text"  id = "hourly_total_intake_12"/></td>
-				<td><input type = "text"  id = "hourly_total_intake_14"/></td>
-				<td><input type = "text"  id = "hourly_total_intake_16"/></td>
-				<td><input type = "text"  id = "hourly_total_intake_18"/></td>
-				<td><input type = "text"  id = "hourly_total_intake_20"/></td>
-				<td><input type = "text"  id = "hourly_total_intake_22"/></td>
-				<td><input type = "text"  id = "hourly_total_intake_24"/></td>
-				<td><input type = "text"  id = "hourly_total_intake_2"/></td>
-				<td><input type = "text"  id = "hourly_total_intake_4"/></td>
-				<td><input type = "text"  id = "hourly_total_intake_6"/></td> 
-				</div>
-			  </tr>
-			  
-			  <tr>
-				<td><b>Total Fluid Intake</td>
-				<div class="form-group">
-				  <td><input type = "text"  id = "total_fluid_intake_8"></t>
-				<td><input type = "text"  id = "total_fluid_intake_10"/></td>
-				<td><input type = "text"  id = "total_fluid_intake_12"/></td>
-				<td><input type = "text"  id = "total_fluid_intake_14"/></td>
-				<td><input type = "text"  id = "total_fluid_intake_16"/></td>
-				<td><input type = "text"  id = "total_fluid_intake_18"/></td>
-				<td><input type = "text"  id = "total_fluid_intake_20"/></td>
-				<td><input type = "text"  id = "total_fluid_intake_22"/></td>
-				<td><input type = "text"  id = "total_fluid_intake_24"/></td>
-				<td><input type = "text"  id = "total_fluid_intake_2"/></td>
-				<td><input type = "text"  id = "total_fluid_intake_4"/></td>
-				<td><input type = "text"  id = "total_fluid_intake_6"/></td> 
-				</div>
-			  </tr>
-			  
-			  <tr>
-				<td>Output Drains 1</td>
-				<div class="form-group">
-				  <td><input type = "text"  id = "output_drains_8"></t>
-				<td><input type = "text"  id = "output_drains_10"/></td>
-				<td><input type = "text"  id = "output_drains_12"/></td>
-				<td><input type = "text"  id = "output_drains_14"/></td>
-				<td><input type = "text"  id = "output_drains_16"/></td>
-				<td><input type = "text"  id = "output_drains_18"/></td>
-				<td><input type = "text"  id = "output_drains_20"/></td>
-				<td><input type = "text"  id = "output_drains_22"/></td>
-				<td><input type = "text"  id = "output_drains_24"/></td>
-				<td><input type = "text"  id = "output_drains_2"/></td>
-				<td><input type = "text"  id = "output_drains_4"/></td>
-				<td><input type = "text"  id = "output_drains_6"/></td> 
-				</div>
-			  </tr>
-			  
-			  <tr>
-				<td>Total Drains (Summation) </td>
-				<div class="form-group">
-				  <td><input type = "text"  id = "total_drains_8"></t>
-				<td><input type = "text"  id = "total_drains_10"/></td>
-				<td><input type = "text"  id = "total_drains_12"/></td>
-				<td><input type = "text"  id = "total_drains_14"/></td>
-				<td><input type = "text"  id = "total_drains_16"/></td>
-				<td><input type = "text"  id = "total_drains_18"/></td>
-				<td><input type = "text"  id = "total_drains_20"/></td>
-				<td><input type = "text"  id = "total_drains_22"/></td>
-				<td><input type = "text"  id = "total_drains_24"/></td>
-				<td><input type = "text"  id = "total_drains_2"/></td>
-				<td><input type = "text"  id = "total_drains_4"/></td>
-				<td><input type = "text"  id = "total_drains_6"/></td> 
-				</div>
-			  </tr>
-			  
-			  <tr>
-				<td>N.G. Aspirate or Vomiting </td>
-				<div class="form-group">
-				  <td><input type = "text"  id = "aspirate_8"></t>
-				<td><input type = "text"  id = "aspirate_10"/></td>
-				<td><input type = "text"  id = "aspirate_12"/></td>
-				<td><input type = "text"  id = "aspirate_14"/></td>
-				<td><input type = "text"  id = "aspirate_16"/></td>
-				<td><input type = "text"  id = "aspirate_18"/></td>
-				<td><input type = "text"  id = "aspirate_20"/></td>
-				<td><input type = "text"  id = "aspirate_22"/></td>
-				<td><input type = "text"  id = "aspirate_24"/></td>
-				<td><input type = "text"  id = "aspirate_2"/></td>
-				<td><input type = "text"  id = "aspirate_4"/></td>
-				<td><input type = "text"  id = "aspirate_6"/></td> 
-				</div>
-			  </tr>
-			  
-			  <tr>
-				<td>Urine Output </td>
-				<div class="form-group">
-				  <td><input type = "text"  id = "urine_output_8"></t>
-				<td><input type = "text"  id = "urine_output_10"/></td>
-				<td><input type = "text"  id = "urine_output_12"/></td>
-				<td><input type = "text"  id = "urine_output_14"/></td>
-				<td><input type = "text"  id = "urine_output_16"/></td>
-				<td><input type = "text"  id = "urine_output_18"/></td>
-				<td><input type = "text"  id = "urine_output_20"/></td>
-				<td><input type = "text"  id = "urine_output_22"/></td>
-				<td><input type = "text"  id = "urine_output_24"/></td>
-				<td><input type = "text"  id = "urine_output_2"/></td>
-				<td><input type = "text"  id = "urine_output_4"/></td>
-				<td><input type = "text"  id = "urine_output_6"/></td> 
-				</div>
-			  </tr>
-			  
-			   <tr>
-				<td><b>Total Urine Output </td>
-				<div class="form-group">
-				  <td><input type = "text"  id = "total_urine_output_8"></t>
-				<td><input type = "text"  id = "total_urine_output_10"/></td>
-				<td><input type = "text"  id = "total_urine_output_12"/></td>
-				<td><input type = "text"  id = "total_urine_output_14"/></td>
-				<td><input type = "text"  id = "total_urine_output_16"/></td>
-				<td><input type = "text"  id = "total_urine_output_18"/></td>
-				<td><input type = "text"  id = "total_urine_output_20"/></td>
-				<td><input type = "text"  id = "total_urine_output_22"/></td>
-				<td><input type = "text"  id = "total_urine_output_24"/></td>
-				<td><input type = "text"  id = "total_urine_output_2"/></td>
-				<td><input type = "text"  id = "total_urine_output_4"/></td>
-				<td><input type = "text"  id = "total_urine_output_6"/></td> 
-				</div>
-			  </tr>
-			  
-			  <tr>
-				<td>Hourly Total Output </td>
-				<div class="form-group">
-				  <td><input type = "text"  id = "hourly_total_output_8"></t>
-				<td><input type = "text"  id = "hourly_total_output_10"/></td>
-				<td><input type = "text"  id = "hourly_total_output_12"/></td>
-				<td><input type = "text"  id = "hourly_total_output_14"/></td>
-				<td><input type = "text"  id = "hourly_total_output_16"/></td>
-				<td><input type = "text"  id = "hourly_total_output_18"/></td>
-				<td><input type = "text"  id = "hourly_total_output_20"/></td>
-				<td><input type = "text"  id = "hourly_total_output_22"/></td>
-				<td><input type = "text"  id = "hourly_total_output_24"/></td>
-				<td><input type = "text"  id = "hourly_total_output_2"/></td>
-				<td><input type = "text"  id = "hourly_total-output_4"/></td>
-				<td><input type = "text"  id = "hourly_total_output_6"/></td> 
-				</div>
-			  </tr>
-			  
-			   <tr>
-				<td>Hourly Total Output </td>
-				<div class="form-group">
-				  <td><input type = "text"  id = "hourly_total_output_8"></t>
-				<td><input type = "text"  id = "hourly_total_output_10"/></td>
-				<td><input type = "text"  id = "hourly_total_output_12"/></td>
-				<td><input type = "text"  id = "hourly_total_output_14"/></td>
-				<td><input type = "text"  id = "hourly_total_output_16"/></td>
-				<td><input type = "text"  id = "hourly_total_output_18"/></td>
-				<td><input type = "text"  id = "hourly_total_output_20"/></td>
-				<td><input type = "text"  id = "hourly_total_output_22"/></td>
-				<td><input type = "text"  id = "hourly_total_output_24"/></td>
-				<td><input type = "text"  id = "hourly_total_output_2"/></td>
-				<td><input type = "text"  id = "hourly_total-output_4"/></td>
-				<td><input type = "text"  id = "hourly_total_output_6"/></td> 
-				</div>
-			  </tr>
-			  
-			  <tr>
-				<td><b>Total Fluid Output</td>
-				<div class="form-group">
-				  <td><input type = "text"  id = "total_fluid_output_8"></t>
-				<td><input type = "text"  id = "total_fluid_output_10"/></td>
-				<td><input type = "text"  id = "total_fluid_output_12"/></td>
-				<td><input type = "text"  id = "total_fluid_output_14"/></td>
-				<td><input type = "text"  id = "total_fluid_output_16"/></td>
-				<td><input type = "text"  id = "total_fluid_output_18"/></td>
-				<td><input type = "text"  id = "total_fluid_output_20"/></td>
-				<td><input type = "text"  id = "total_fluid_output_22"/></td>
-				<td><input type = "text"  id = "total_fluid_output_24"/></td>
-				<td><input type = "text"  id = "total_fluid_output_2"/></td>
-				<td><input type = "text"  id = "total_fluid_output_4"/></td>
-				<td><input type = "text"  id = "total_fluid_output_6"/></td> 
-				</div>
-			  </tr>
-			  
-			  <tr>
-				<td><b>Balance</td>
-				<div class="form-group">
-				  <td><input type = "text"  id = "balance_8"></t>
-				<td><input type = "text"  id = "balance_10"/></td>
-				<td><input type = "text"  id = "balance_12"/></td>
-				<td><input type = "text"  id = "balance_14"/></td>
-				<td><input type = "text"  id = "balance_16"/></td>
-				<td><input type = "text"  id = "balance_18"/></td>
-				<td><input type = "text"  id = "balance_20"/></td>
-				<td><input type = "text"  id = "balance_22"/></td>
-				<td><input type = "text"  id = "balance_24"/></td>
-				<td><input type = "text"  id = "balance_2"/></td>
-				<td><input type = "text"  id = "balance_4"/></td>
-				<td><input type = "text"  id = "balance_6"/></td> 
-				</div>
-			  </tr>
-			  
-			  <tr>
-				<td><b>R.B.S mg%/ Abd Girth (c.m.)</td>
-				<div class="form-group">
-				  <td><input type = "text"  id = "rbs_8"></t>
-				<td><input type = "text"  id = "rbs_10"/></td>
-				<td><input type = "text"  id = "rbs_12"/></td>
-				<td><input type = "text"  id = "rbs_14"/></td>
-				<td><input type = "text"  id = "rbs_16"/></td>
-				<td><input type = "text"  id = "rbs_18"/></td>
-				<td><input type = "text"  id = "rbs_20"/></td>
-				<td><input type = "text"  id = "rbs_22"/></td>
-				<td><input type = "text"  id = "rbs_24"/></td>
-				<td><input type = "text"  id = "rbs_2"/></td>
-				<td><input type = "text"  id = "rbs_4"/></td>
-				<td><input type = "text"  id = "rbs_6"/></td> 
-				</div>
-			  </tr>
-			  
-			  <tr>
-				<td class="text-right">Sign Of Staff</td>
-				<div class="form-group">
-				  <td><input type = "text"  id = "sign_8"></t>
-				<td><input type = "text"  id = "sign_10"/></td>
-				<td><input type = "text"  id = "sign_12"/></td>
-				<td><input type = "text"  id = "sign_14"/></td>
-				<td><input type = "text"  id = "sign_16"/></td>
-				<td><input type = "text"  id = "sign_18"/></td>
-				<td><input type = "text"  id = "sign_20"/></td>
-				<td><input type = "text"  id = "sign_22"/></td>
-				<td><input type = "text"  id = "sign_24"/></td>
-				<td><input type = "text"  id = "sign_2"/></td>
-				<td><input type = "text"  id = "sign_4"/></td>
-				<td><input type = "text"  id = "sign_6"/></td> 
-				</div>
-			  </tr>
-			  
-			  </tbody>
-		  </table>
+			</div>
 		</div>
-	
+
+		<div class="row form-group">
+			<div class="col-md-6">
+				<div class="col-md-6">
+					<label>Previous 24Hrs Output : </label>
+				</div>
+				<div class="col-md-6">
+					<input class="form-control" type="text" name="prev_24_output" />
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="col-md-6">
+		      <label>Balance : </label>
+				</div>
+				<div class="col-md-6">
+		      <input class="form-control" type="date" name="balance" />
+				</div>
+			</div>
+		</div>
+
+		<!--Table-->
+
+		<div class="row form-group">
+			<table class="table table-bordered table-condensed small">
+				<thead>
+					<tr>
+						<th>Time</th>
+						<th>8-00</th>
+						<th>10-00</th>
+						<th>12-00</th>
+						<th>14-00</th>
+						<th>16-00</th>
+						<th>18-00</th>
+						<th>20-00</th>
+						<th>22-00</th>
+						<th>24-00</th>
+						<th>2-00</th>
+						<th>4-00</th>
+						<th>6-00</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr>
+						<th>Temp : </th>
+						<td><input class="form-control" type="text" name="temp_08" /></td>
+						<td><input class="form-control" type="text" name="temp_10" /></td>
+						<td><input class="form-control" type="text" name="temp_12" /></td>
+						<td><input class="form-control" type="text" name="temp_14" /></td>
+						<td><input class="form-control" type="text" name="temp_16" /></td>
+						<td><input class="form-control" type="text" name="temp_18" /></td>
+						<td><input class="form-control" type="text" name="temp_20" /></td>
+						<td><input class="form-control" type="text" name="temp_22" /></td>
+						<td><input class="form-control" type="text" name="temp_24" /></td>
+						<td><input class="form-control" type="text" name="temp_02" /></td>
+						<td><input class="form-control" type="text" name="temp_04" /></td>
+						<td><input class="form-control" type="text" name="temp_06" /></td>
+					</tr>
+
+					<tr>
+						<th>Pulse(per min) : </th>
+						<td><input class="form-control" type="text" name=" pulse_08" /></td>
+						<td><input class="form-control" type="text" name=" pulse_10" /></td>
+						<td><input class="form-control" type="text" name=" pulse_12" /></td>
+						<td><input class="form-control" type="text" name=" pulse_14" /></td>
+						<td><input class="form-control" type="text" name=" pulse_16" /></td>
+						<td><input class="form-control" type="text" name=" pulse_18" /></td>
+						<td><input class="form-control" type="text" name=" pulse_20" /></td>
+						<td><input class="form-control" type="text" name=" pulse_22" /></td>
+						<td><input class="form-control" type="text" name=" pulse_24" /></td>
+						<td><input class="form-control" type="text" name=" pulse_02" /></td>
+						<td><input class="form-control" type="text" name=" pulse_04" /></td>
+						<td><input class="form-control" type="text" name=" pulse_06" /></td>
+					</tr>
+
+					<tr>
+						<th>Blood Pressure : </th>
+						<td><input class="form-control" type="text" name=" bp_08" /></td>
+						<td><input class="form-control" type="text" name=" bp_10" /></td>
+						<td><input class="form-control" type="text" name=" bp_12" /></td>
+						<td><input class="form-control" type="text" name=" bp_14" /></td>
+						<td><input class="form-control" type="text" name=" bp_16" /></td>
+						<td><input class="form-control" type="text" name=" bp_18" /></td>
+						<td><input class="form-control" type="text" name=" bp_20" /></td>
+						<td><input class="form-control" type="text" name=" bp_22" /></td>
+						<td><input class="form-control" type="text" name=" bp_24" /></td>
+						<td><input class="form-control" type="text" name=" bp_02" /></td>
+						<td><input class="form-control" type="text" name=" bp_04" /></td>
+						<td><input class="form-control" type="text" name=" bp_06" /></td>
+					</tr>
+
+					<tr>
+						<th>Resp. Rate : </th>
+						<td><input class="form-control" type="text" name="resp_08" /></td>
+						<td><input class="form-control" type="text" name="resp_10" /></td>
+						<td><input class="form-control" type="text" name="resp_12" /></td>
+						<td><input class="form-control" type="text" name="resp_14" /></td>
+						<td><input class="form-control" type="text" name="resp_16" /></td>
+						<td><input class="form-control" type="text" name="resp_18" /></td>
+						<td><input class="form-control" type="text" name="resp_20" /></td>
+						<td><input class="form-control" type="text" name="resp_22" /></td>
+						<td><input class="form-control" type="text" name="resp_24" /></td>
+						<td><input class="form-control" type="text" name="resp_02" /></td>
+						<td><input class="form-control" type="text" name="resp_04" /></td>
+						<td><input class="form-control" type="text" name="resp_06" /></td>
+					</tr>
+
+					<tr>
+						<th>Pain : </th>
+						<td>
+							<select class="form-control" name="pain_08">
+								<option>0</option>
+								<option>2</option>
+								<option>4</option>
+								<option>8</option>
+								<option>10</option>
+							</select>
+						</td>
+						<td>
+							<select class="form-control" name="pain_10">
+								<option>0</option>
+								<option>2</option>
+								<option>4</option>
+								<option>8</option>
+								<option>10</option>
+							</select>
+						</td>
+						<td>
+							<select class="form-control" name="pain_12">
+								<option>0</option>
+								<option>2</option>
+								<option>4</option>
+								<option>8</option>
+								<option>10</option>
+							</select>
+						</td>
+						<td>
+							<select class="form-control" name="pain_14">
+								<option>0</option>
+								<option>2</option>
+								<option>4</option>
+								<option>8</option>
+								<option>10</option>
+							</select>
+						</td>
+						<td>
+							<select class="form-control" name="pain_16">
+								<option>0</option>
+								<option>2</option>
+								<option>4</option>
+								<option>8</option>
+								<option>10</option>
+							</select>
+						</td>
+						<td>
+							<select class="form-control" name="pain_18">
+								<option>0</option>
+								<option>2</option>
+								<option>4</option>
+								<option>8</option>
+								<option>10</option>
+							</select>
+						</td>
+						<td>
+							<select class="form-control" name="pain_20">
+								<option>0</option>
+								<option>2</option>
+								<option>4</option>
+								<option>8</option>
+								<option>10</option>
+							</select>
+						</td>
+						<td>
+							<select class="form-control" name="pain_22">
+								<option>0</option>
+								<option>2</option>
+								<option>4</option>
+								<option>8</option>
+								<option>10</option>
+							</select>
+						</td>
+						<td>
+							<select class="form-control" name="pain_24">
+								<option>0</option>
+								<option>2</option>
+								<option>4</option>
+								<option>8</option>
+								<option>10</option>
+							</select>
+						</td>
+						<td>
+							<select class="form-control" name="pain_02">
+								<option>0</option>
+								<option>2</option>
+								<option>4</option>
+								<option>8</option>
+								<option>10</option>
+							</select>
+						</td>
+						<td>
+							<select class="form-control" name="pain_04">
+								<option>0</option>
+								<option>2</option>
+								<option>4</option>
+								<option>8</option>
+								<option>10</option>
+							</select>
+						</td>
+						<td>
+							<select class="form-control" name="pain_06">
+								<option>0</option>
+								<option>2</option>
+								<option>4</option>
+								<option>8</option>
+								<option>10</option>
+							</select>
+						</td>
+					</tr>
+
+					<tr>
+						<th>Intake IV Line 1 : </th>
+						<td><input class="form-control" type="text" name="iv_line1_08" /></td>
+						<td><input class="form-control" type="text" name="iv_line1_10" /></td>
+						<td><input class="form-control" type="text" name="iv_line1_12" /></td>
+						<td><input class="form-control" type="text" name="iv_line1_14" /></td>
+						<td><input class="form-control" type="text" name="iv_line1_16" /></td>
+						<td><input class="form-control" type="text" name="iv_line1_18" /></td>
+						<td><input class="form-control" type="text" name="iv_line1_20" /></td>
+						<td><input class="form-control" type="text" name="iv_line1_22" /></td>
+						<td><input class="form-control" type="text" name="iv_line1_24" /></td>
+						<td><input class="form-control" type="text" name="iv_line1_02" /></td>
+						<td><input class="form-control" type="text" name="iv_line1_04" /></td>
+						<td><input class="form-control" type="text" name="iv_line1_06" /></td>
+					</tr>
+
+					<tr>
+						<th>Intake IV Line 2 : </th>
+						<td><input class="form-control" type="text" name="iv_line2_08" /></td>
+						<td><input class="form-control" type="text" name="iv_line2_10" /></td>
+						<td><input class="form-control" type="text" name="iv_line2_12" /></td>
+						<td><input class="form-control" type="text" name="iv_line2_14" /></td>
+						<td><input class="form-control" type="text" name="iv_line2_16" /></td>
+						<td><input class="form-control" type="text" name="iv_line2_18" /></td>
+						<td><input class="form-control" type="text" name="iv_line2_20" /></td>
+						<td><input class="form-control" type="text" name="iv_line2_22" /></td>
+						<td><input class="form-control" type="text" name="iv_line2_24" /></td>
+						<td><input class="form-control" type="text" name="iv_line2_02" /></td>
+						<td><input class="form-control" type="text" name="iv_line2_04" /></td>
+						<td><input class="form-control" type="text" name="iv_line2_06" /></td>
+					</tr>
+
+					<tr>
+						<th>Intake IV Line 1 : </th>
+						<td><input class="form-control" type="text" name="iv_line3_08" /></td>
+						<td><input class="form-control" type="text" name="iv_line3_10" /></td>
+						<td><input class="form-control" type="text" name="iv_line3_12" /></td>
+						<td><input class="form-control" type="text" name="iv_line3_14" /></td>
+						<td><input class="form-control" type="text" name="iv_line3_16" /></td>
+						<td><input class="form-control" type="text" name="iv_line3_18" /></td>
+						<td><input class="form-control" type="text" name="iv_line3_20" /></td>
+						<td><input class="form-control" type="text" name="iv_line3_22" /></td>
+						<td><input class="form-control" type="text" name="iv_line3_24" /></td>
+						<td><input class="form-control" type="text" name="iv_line3_02" /></td>
+						<td><input class="form-control" type="text" name="iv_line3_04" /></td>
+						<td><input class="form-control" type="text" name="iv_line3_06" /></td>
+					</tr>
+
+					<tr>
+						<th>Intake IV Line 1 : </th>
+						<td><input class="form-control" type="text" name="iv_line4_08" /></td>
+						<td><input class="form-control" type="text" name="iv_line4_10" /></td>
+						<td><input class="form-control" type="text" name="iv_line4_12" /></td>
+						<td><input class="form-control" type="text" name="iv_line4_14" /></td>
+						<td><input class="form-control" type="text" name="iv_line4_16" /></td>
+						<td><input class="form-control" type="text" name="iv_line4_18" /></td>
+						<td><input class="form-control" type="text" name="iv_line4_20" /></td>
+						<td><input class="form-control" type="text" name="iv_line4_22" /></td>
+						<td><input class="form-control" type="text" name="iv_line4_24" /></td>
+						<td><input class="form-control" type="text" name="iv_line4_02" /></td>
+						<td><input class="form-control" type="text" name="iv_line4_04" /></td>
+						<td><input class="form-control" type="text" name="iv_line4_06" /></td>
+					</tr>
+
+					<tr>
+						<th>Intake IV Line 1 : </th>
+						<td><input class="form-control" type="text" name="iv_line5_08" /></td>
+						<td><input class="form-control" type="text" name="iv_line5_10" /></td>
+						<td><input class="form-control" type="text" name="iv_line5_12" /></td>
+						<td><input class="form-control" type="text" name="iv_line5_14" /></td>
+						<td><input class="form-control" type="text" name="iv_line5_16" /></td>
+						<td><input class="form-control" type="text" name="iv_line5_18" /></td>
+						<td><input class="form-control" type="text" name="iv_line5_20" /></td>
+						<td><input class="form-control" type="text" name="iv_line5_22" /></td>
+						<td><input class="form-control" type="text" name="iv_line5_24" /></td>
+						<td><input class="form-control" type="text" name="iv_line5_02" /></td>
+						<td><input class="form-control" type="text" name="iv_line5_04" /></td>
+						<td><input class="form-control" type="text" name="iv_line5_06" /></td>
+					</tr>
+
+					<tr>
+						<th>Hourly IV : </th>
+						<td><input class="form-control" type="text" name="hourly_iv_08" /></td>
+						<td><input class="form-control" type="text" name="hourly_iv_10" /></td>
+						<td><input class="form-control" type="text" name="hourly_iv_12" /></td>
+						<td><input class="form-control" type="text" name="hourly_iv_14" /></td>
+						<td><input class="form-control" type="text" name="hourly_iv_16" /></td>
+						<td><input class="form-control" type="text" name="hourly_iv_18" /></td>
+						<td><input class="form-control" type="text" name="hourly_iv_20" /></td>
+						<td><input class="form-control" type="text" name="hourly_iv_22" /></td>
+						<td><input class="form-control" type="text" name="hourly_iv_24" /></td>
+						<td><input class="form-control" type="text" name="hourly_iv_02" /></td>
+						<td><input class="form-control" type="text" name="hourly_iv_04" /></td>
+						<td><input class="form-control" type="text" name="hourly_iv_06" /></td>
+					</tr>
+
+					<tr>
+						<th>Total IV : </th>
+						<td><input class="form-control" type="text" name="total_iv_08" /></td>
+						<td><input class="form-control" type="text" name="total_iv_10" /></td>
+						<td><input class="form-control" type="text" name="total_iv_12" /></td>
+						<td><input class="form-control" type="text" name="total_iv_14" /></td>
+						<td><input class="form-control" type="text" name="total_iv_16" /></td>
+						<td><input class="form-control" type="text" name="total_iv_18" /></td>
+						<td><input class="form-control" type="text" name="total_iv_20" /></td>
+						<td><input class="form-control" type="text" name="total_iv_22" /></td>
+						<td><input class="form-control" type="text" name="total_iv_24" /></td>
+						<td><input class="form-control" type="text" name="total_iv_02" /></td>
+						<td><input class="form-control" type="text" name="total_iv_04" /></td>
+						<td><input class="form-control" type="text" name="total_iv_06" /></td>
+					</tr>
+
+					<tr>
+						<th>Oral N/G : </th>
+						<td><input class="form-control" type="text" name="total_iv_08" /></td>
+						<td><input class="form-control" type="text" name="total_iv_10" /></td>
+						<td><input class="form-control" type="text" name="total_iv_12" /></td>
+						<td><input class="form-control" type="text" name="total_iv_14" /></td>
+						<td><input class="form-control" type="text" name="total_iv_16" /></td>
+						<td><input class="form-control" type="text" name="total_iv_18" /></td>
+						<td><input class="form-control" type="text" name="total_iv_20" /></td>
+						<td><input class="form-control" type="text" name="total_iv_22" /></td>
+						<td><input class="form-control" type="text" name="total_iv_24" /></td>
+						<td><input class="form-control" type="text" name="total_iv_02" /></td>
+						<td><input class="form-control" type="text" name="total_iv_04" /></td>
+						<td><input class="form-control" type="text" name="total_iv_06" /></td>
+					</tr>
+
+
+				</tbody>
+			</tabel>
+
+		</div>
+
+
 	</form>
-</div>
