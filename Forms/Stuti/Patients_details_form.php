@@ -88,77 +88,70 @@
 					</div>
 				</div>
 			</div>
-			<div class="row form-group">
-				<div class="col-md-2">
 
-				</div>
-				<div class="col-md-8">
-					<div class="col-md-5">
-						<label class="control-label" for="address">Address: </label>
-					</div>
-					<div class="col-md-7">
-						<textarea class="form-control" type="date" id="address" name="address"/> </textarea>
-					</div>
-				</div>
-				<div class="col-md-2">
-
-				</div>
-			</div>
 			<div class="row form-group">
 				<div class="col-md-6">
-					<div class="col-md-4">
-						<label class="control-label" for="phone_no">Phone no.: </label>
+					<div class="col-md-6">
+			      <label for="address">Address: </label>
 					</div>
-					<div class="col-md-8">
-						<input class="form-control" type="text" id="phone_no" name="phone_no"/>
-					</div>
-				</div>
-				<div class="col-md-6">
-					<div class="col-md-4">
-						<label class="control-label" for="mobile_no">Mobile no.: </label>
-					</div>
-					<div class="col-md-8">
-						<input class="form-control" type="text" id="mobile_no" name="mobile_no"/>
+					<div class="col-md-6">
+			      <textarea class="form-control" type="text" id="address" name="address"/> </textarea>
 					</div>
 				</div>
 			</div>
+
 			<div class="row form-group">
 				<div class="col-md-6">
-					<div class="col-md-4">
-						<label class="control-label" for="reference_dr">Reference Dr.: </label>
+					<div class="col-md-6">
+			      <label class="control-label" for="phone_no">Phone no.: </label>
 					</div>
-					<div class="col-md-8">
-						<input class="form-control" type="text" id="reference_dr" name="reference_dr"/>
+					<div class="col-md-6">
+			      <input class="form-control" type="text" id="phone_no" name="phone_no"/>
 					</div>
 				</div>
 				<div class="col-md-6">
-					<div class="col-md-4">
-						<label class="control-label" for="consulting_dr">Consulting Dr..: </label>
+					<div class="col-md-6">
+			      <label class="control-label" for="mobile_no">Mobile no.: </label>
 					</div>
-					<div class="col-md-8">
-						<input class="form-control" type="text" id="consulting_dr" name="consulting_dr"/>
+					<div class="col-md-6">
+			      <input class="form-control" type="text" id="mobile_no" name="mobile_no"/>
 					</div>
 				</div>
 			</div>
-			<div class="row form-group">
-				<div class="col-md-3">
 
+			<div class="row form-group">
+				<div class="col-md-6">
+					<div class="col-md-6">
+			      <label class="control-label" for="reference_dr">Reference Dr.: </label>
+					</div>
+					<div class="col-md-6">
+			      <input class="form-control" type="text" id="reference_dr" name="reference_dr"/>
+					</div>
 				</div>
 				<div class="col-md-6">
-					<div class="col-md-4">
-						<label class="control-label" for="case">Case: </label>
+					<div class="col-md-6">
+			      <label class="control-label" for="consulting_dr">Consulting Dr..: </label>
 					</div>
-					<div class="col-md-8">
+					<div class="col-md-6">
+			      <input class="form-control" type="text" id="consulting_dr" name="consulting_dr"/>
+					</div>
+				</div>
+			</div>
+
+			<div class="row form-group">
+				<div class="col-md-6">
+					<div class="col-md-6">
+			      <label class="control-label" for="case">Case: </label>
+					</div>
+					<div class="col-md-6">
 						<select class="form-control" id="case" name="case">
 							<option value="new">New</option>
 							<option value="old">Old</option>
 						</select>
 					</div>
 				</div>
-				<div class="col-md-3">
-
-				</div>
 			</div>
+
 		</form>
 	</div>
 </body>
