@@ -1,3 +1,3 @@
 pending :
 
-Operative detail sheet
+lab sheet
