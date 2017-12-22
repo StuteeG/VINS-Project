@@ -39,7 +39,7 @@
 					</div>
 				</div>
 			</div>
-
+			<hr />
 			<div class="row form-group">
 				<div class="col-md-4">
 						<div class="col-md-6">
@@ -65,7 +65,6 @@
 						<input class="form-control" type="text" id="last_name" name="last_name"/>
 					</div>
 				</div>
-
 			</div>
 			<div class="row form-group">
 				<div class="col-md-6">

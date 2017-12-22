@@ -4,250 +4,131 @@
 		Patient Diet Record
 	</title>
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<style> div.double {border-style: double;} </style>
 </head>
+<body>
 
-<div class="container">
-	<div class="page-header">
-		<div class="row">
-			<div class="col-md-6">
-				<h1>Patient Diet Record</h1>
-			</div>
-			<div>
-				<div class="text-right">
-					DOC NO. FMT/HIC/09 <br>
-					REV. No. 0.1 <br>
-					WEF 10-10-2015
-				</div>	
+	<div class="container">
+
+		<div class="page-header">
+			<div class="row">
+				<div class="col-md-6">
+					<h1>Patient Diet Record</h1>
+				</div>
+				<div>
+					<div class="text-right">
+						DOC NO. FMT/HIC/09 <br>
+						REV. No. 0.1 <br>
+						WEF 10-10-2015
+					</div>
+				</div>
 			</div>
 		</div>
+
+		<form id="patientdierecord">
+
+			<div class="row form-group">
+				<div class="col-md-6">
+					<div class="col-md-6">
+			      <label>Dietician / Nurses Name : </label>
+					</div>
+					<div class="col-md-6">
+			      <input class="form-control" type = "text" name = "dietician_name">
+					</div>
+				</div>
+			</div>
+
+			<div class="row form-group">
+				<div class="col-md-6">
+					<div class="col-md-6">
+			      <label>Date : </label>
+					</div>
+					<div class="col-md-6">
+			      <input class="form-control" type = "date" name = "date" />
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="col-md-6">
+			      <label>Time : </label>
+					</div>
+					<div class="col-md-6">
+			      <input class="form-control" type="time" name="time" />
+					</div>
+				</div>
+			</div>
+
+			<div class="row form-group">
+				<div class="col-md-6">
+					<div class="col-md-6">
+			      <label>Bed No : </label>
+					</div>
+					<div class="col-md-6">
+			      <input class="form-control" type="text" name="bed_no" />
+					</div>
+				</div>
+			</div>
+
+			<div class="row form-group">
+				<div class="col-md-6">
+					<div class="col-md-6">
+			      <label>UHID No : </label>
+					</div>
+					<div class="col-md-6">
+			      <input class="form-control" type="text" name="uhid_no" />
+					</div>
+				</div>
+			</div>
+
+			<div class="row form-group">
+				<div class="col-md-6">
+					<div class="col-md-6">
+			      <label>Patient Name : </label>
+					</div>
+					<div class="col-md-6">
+			      <input class="form-control" type="text" name="patient_name" />
+					</div>
+				</div>
+			</div>
+
+			<div class="row form-group">
+				<div class="col-md-6">
+					<div class="col-md-6">
+			      <label>Diagnosis : </label>
+					</div>
+					<div class="col-md-6">
+			      <input class="form-control" type="text" name="diagnosis" />
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="col-md-6">
+			      <label>Consultant's Name : </label>
+					</div>
+					<div class="col-md-6">
+			      <input class="form-control" type="text" name="consultants_name" />
+					</div>
+				</div>
+			</div>
+
+			<div class="row form-group">
+				<div class="col-md-6">
+					<div class="col-md-6">
+			      <label>Diet to be Given : </label>
+					</div>
+					<div class="col-md-6">
+			      <input class="form-control" type="text" name="diet_to_be_given" />
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="col-md-6">
+			      <label>Remarks : </label>
+					</div>
+					<div class="col-md-6">
+			      <input class="form-control" type="text" name="remarks" />
+					</div>
+				</div>
+			</div>
+		</form>
 	</div>
-		<div class ="row">
-			DIETICIAN / NURSES NAME: <input type = "text" id = "dietician_name">
-			DATE: <input type = "date" id = "date">
-			TIME: <input type= "time" id = "time">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</body>
 
-		</div>
-
-
-
-	<form id="patientdierecord">
-
-		<div class="row">
-		  <table class="table table-bordered">
-		    <thead>
-			  <tr>
-				<th>Sr NO</th>
-				<th>Bed NO.</th>
-				<th>UHID NO.</th>
-				<th>Patient Name</th>
-				<th>Diagnosis</th>
-				<th>Consultant Name</th>
-				<th>Diet To Be Given</th>
-				<th>Special Remark</th>
-
-			 </tr>
-			 </thead>
-			<tbody>
-
-			  <tr>
-
-				<div class="form-group">
-				<td><input type = "text"  id = "sr_no"/></td>
-				<td><input type = "text"  id = "bed_no"></td>
-				<td><input type = "text"  id = "uhid_no"/></td>
-				<td><input type = "text"  id = "patient_name"/></td>
-				<td><input type = "text"  id = "diagnosis"/></td>
-				<td><input type = "text"  id = "consultant_name"/></td>
-				<td><input type = "text"  id = "diet_to_give"/></td>
-				<td><input type = "text"  id = "special_remark"/></td>
-				</div>
-			  </tr>
-
-			  <tr>
-
-				<div class="form-group">
-				<td><input type = "text"  id = "sr_no"/></td>
-				<td><input type = "text"  id = "bed_no"></td>
-				<td><input type = "text"  id = "uhid_no"/></td>
-				<td><input type = "text"  id = "patient_name"/></td>
-				<td><input type = "text"  id = "diagnosis"/></td>
-				<td><input type = "text"  id = "consultant_name"/></td>
-				<td><input type = "text"  id = "diet_to_give"/></td>
-				<td><input type = "text"  id = "special_remark"/></td>
-				</div>
-			  </tr>
-
-
-			  <tr>
-
-				<div class="form-group">
-				<td><input type = "text"  id = "sr_no"/></td>
-				<td><input type = "text"  id = "bed_no"></td>
-				<td><input type = "text"  id = "uhid_no"/></td>
-				<td><input type = "text"  id = "patient_name"/></td>
-				<td><input type = "text"  id = "diagnosis"/></td>
-				<td><input type = "text"  id = "consultant_name"/></td>
-				<td><input type = "text"  id = "diet_to_give"/></td>
-				<td><input type = "text"  id = "special_remark"/></td>
-				</div>
-			  </tr>
-
-			  <tr>
-
-				<div class="form-group">
-				<td><input type = "text"  id = "sr_no"/></td>
-				<td><input type = "text"  id = "bed_no"></td>
-				<td><input type = "text"  id = "uhid_no"/></td>
-				<td><input type = "text"  id = "patient_name"/></td>
-				<td><input type = "text"  id = "diagnosis"/></td>
-				<td><input type = "text"  id = "consultant_name"/></td>
-				<td><input type = "text"  id = "diet_to_give"/></td>
-				<td><input type = "text"  id = "special_remark"/></td>
-				</div>
-			  </tr>
-
-			  <tr>
-
-				<div class="form-group">
-				<td><input type = "text"  id = "sr_no"/></td>
-				<td><input type = "text"  id = "bed_no"></td>
-				<td><input type = "text"  id = "uhid_no"/></td>
-				<td><input type = "text"  id = "patient_name"/></td>
-				<td><input type = "text"  id = "diagnosis"/></td>
-				<td><input type = "text"  id = "consultant_name"/></td>
-				<td><input type = "text"  id = "diet_to_give"/></td>
-				<td><input type = "text"  id = "special_remark"/></td>
-				</div>
-			  </tr>
-
-			 <tr>
-
-				<div class="form-group">
-				<td><input type = "text"  id = "sr_no"/></td>
-				<td><input type = "text"  id = "bed_no"></td>
-				<td><input type = "text"  id = "uhid_no"/></td>
-				<td><input type = "text"  id = "patient_name"/></td>
-				<td><input type = "text"  id = "diagnosis"/></td>
-				<td><input type = "text"  id = "consultant_name"/></td>
-				<td><input type = "text"  id = "diet_to_give"/></td>
-				<td><input type = "text"  id = "special_remark"/></td>
-				</div>
-			  </tr>
-
-			   <tr>
-
-				<div class="form-group">
-				<td><input type = "text"  id = "sr_no"/></td>
-				<td><input type = "text"  id = "bed_no"></td>
-				<td><input type = "text"  id = "uhid_no"/></td>
-				<td><input type = "text"  id = "patient_name"/></td>
-				<td><input type = "text"  id = "diagnosis"/></td>
-				<td><input type = "text"  id = "consultant_name"/></td>
-				<td><input type = "text"  id = "diet_to_give"/></td>
-				<td><input type = "text"  id = "special_remark"/></td>
-				</div>
-			  </tr>
-
-			   <tr>
-
-				<div class="form-group">
-				<td><input type = "text"  id = "sr_no"/></td>
-				<td><input type = "text"  id = "bed_no"></td>
-				<td><input type = "text"  id = "uhid_no"/></td>
-				<td><input type = "text"  id = "patient_name"/></td>
-				<td><input type = "text"  id = "diagnosis"/></td>
-				<td><input type = "text"  id = "consultant_name"/></td>
-				<td><input type = "text"  id = "diet_to_give"/></td>
-				<td><input type = "text"  id = "special_remark"/></td>
-				</div>
-			  </tr>
-
-			   <tr>
-
-				<div class="form-group">
-				<td><input type = "text"  id = "sr_no"/></td>
-				<td><input type = "text"  id = "bed_no"></td>
-				<td><input type = "text"  id = "uhid_no"/></td>
-				<td><input type = "text"  id = "patient_name"/></td>
-				<td><input type = "text"  id = "diagnosis"/></td>
-				<td><input type = "text"  id = "consultant_name"/></td>
-				<td><input type = "text"  id = "diet_to_give"/></td>
-				<td><input type = "text"  id = "special_remark"/></td>
-				</div>
-			  </tr>
-
-			  <tr>
-
-				<div class="form-group">
-				<td><input type = "text"  id = "sr_no"/></td>
-				<td><input type = "text"  id = "bed_no"></td>
-				<td><input type = "text"  id = "uhid_no"/></td>
-				<td><input type = "text"  id = "patient_name"/></td>
-				<td><input type = "text"  id = "diagnosis"/></td>
-				<td><input type = "text"  id = "consultant_name"/></td>
-				<td><input type = "text"  id = "diet_to_give"/></td>
-				<td><input type = "text"  id = "special_remark"/></td>
-				</div>
-			  </tr>
-
-
-			<tr>
-
-				<div class="form-group">
-				<td><input type = "text"  id = "sr_no"/></td>
-				<td><input type = "text"  id = "bed_no"></td>
-				<td><input type = "text"  id = "uhid_no"/></td>
-				<td><input type = "text"  id = "patient_name"/></td>
-				<td><input type = "text"  id = "diagnosis"/></td>
-				<td><input type = "text"  id = "consultant_name"/></td>
-				<td><input type = "text"  id = "diet_to_give"/></td>
-				<td><input type = "text"  id = "special_remark"/></td>
-				</div>
-			  </tr>
-
-			  <tr>
-
-				<div class="form-group">
-				<td><input type = "text"  id = "sr_no"/></td>
-				<td><input type = "text"  id = "bed_no"></td>
-				<td><input type = "text"  id = "uhid_no"/></td>
-				<td><input type = "text"  id = "patient_name"/></td>
-				<td><input type = "text"  id = "diagnosis"/></td>
-				<td><input type = "text"  id = "consultant_name"/></td>
-				<td><input type = "text"  id = "diet_to_give"/></td>
-				<td><input type = "text"  id = "special_remark"/></td>
-				</div>
-			  </tr>
-
-			  <tr>
-
-				<div class="form-group">
-				<td><input type = "text"  id = "sr_no"/></td>
-				<td><input type = "text"  id = "bed_no"></td>
-				<td><input type = "text"  id = "uhid_no"/></td>
-				<td><input type = "text"  id = "patient_name"/></td>
-				<td><input type = "text"  id = "diagnosis"/></td>
-				<td><input type = "text"  id = "consultant_name"/></td>
-				<td><input type = "text"  id = "diet_to_give"/></td>
-				<td><input type = "text"  id = "special_remark"/></td>
-				</div>
-			  </tr>
-
-
-			  </tbody>
-		  </table>
-		</div>
-		<div class ="col-md-6">
-		Checked By(Nurse In Charge)
-		<br>Name: <input type = "text">
-		<br><br>Sign: <input type= "text">
-		</div>
-
-		<div class = "text-right">
-			Approved By:
-			<br>Name: <input type = "text">
-			<br><br>Sign: <input type= "text">
-		</div>
-	</form>
-</div>
+</html>
