@@ -446,19 +446,212 @@
 
 					<tr>
 						<th>Oral N/G : </th>
-						<td><input class="form-control" type="text" name="total_iv_08" /></td>
-						<td><input class="form-control" type="text" name="total_iv_10" /></td>
-						<td><input class="form-control" type="text" name="total_iv_12" /></td>
-						<td><input class="form-control" type="text" name="total_iv_14" /></td>
-						<td><input class="form-control" type="text" name="total_iv_16" /></td>
-						<td><input class="form-control" type="text" name="total_iv_18" /></td>
-						<td><input class="form-control" type="text" name="total_iv_20" /></td>
-						<td><input class="form-control" type="text" name="total_iv_22" /></td>
-						<td><input class="form-control" type="text" name="total_iv_24" /></td>
-						<td><input class="form-control" type="text" name="total_iv_02" /></td>
-						<td><input class="form-control" type="text" name="total_iv_04" /></td>
-						<td><input class="form-control" type="text" name="total_iv_06" /></td>
+						<td><input class="form-control" type="text" name="oral_08" /></td>
+						<td><input class="form-control" type="text" name="oral_10" /></td>
+						<td><input class="form-control" type="text" name="oral_12" /></td>
+						<td><input class="form-control" type="text" name="oral_14" /></td>
+						<td><input class="form-control" type="text" name="oral_16" /></td>
+						<td><input class="form-control" type="text" name="oral_18" /></td>
+						<td><input class="form-control" type="text" name="oral_20" /></td>
+						<td><input class="form-control" type="text" name="oral_22" /></td>
+						<td><input class="form-control" type="text" name="oral_24" /></td>
+						<td><input class="form-control" type="text" name="oral_02" /></td>
+						<td><input class="form-control" type="text" name="oral_04" /></td>
+						<td><input class="form-control" type="text" name="oral_06" /></td>
 					</tr>
+
+					<tr>
+						<th>Total Oral N/G : </th>
+						<td><input class="form-control" type="text" name="total_oral_08" /></td>
+						<td><input class="form-control" type="text" name="total_oral_10" /></td>
+						<td><input class="form-control" type="text" name="total_oral_12" /></td>
+						<td><input class="form-control" type="text" name="total_oral_14" /></td>
+						<td><input class="form-control" type="text" name="total_oral_16" /></td>
+						<td><input class="form-control" type="text" name="total_oral_18" /></td>
+						<td><input class="form-control" type="text" name="total_oral_20" /></td>
+						<td><input class="form-control" type="text" name="total_oral_22" /></td>
+						<td><input class="form-control" type="text" name="total_oral_24" /></td>
+						<td><input class="form-control" type="text" name="total_oral_02" /></td>
+						<td><input class="form-control" type="text" name="total_oral_04" /></td>
+						<td><input class="form-control" type="text" name="total_oral_06" /></td>
+					</tr>
+
+					<tr>
+						<th>Hourly Total Intake : </th>
+						<td><input class="form-control" type="text" name="hourly_total_intake_08" /></td>
+						<td><input class="form-control" type="text" name="hourly_total_intake_10" /></td>
+						<td><input class="form-control" type="text" name="hourly_total_intake_12" /></td>
+						<td><input class="form-control" type="text" name="hourly_total_intake_14" /></td>
+						<td><input class="form-control" type="text" name="hourly_total_intake_16" /></td>
+						<td><input class="form-control" type="text" name="hourly_total_intake_18" /></td>
+						<td><input class="form-control" type="text" name="hourly_total_intake_20" /></td>
+						<td><input class="form-control" type="text" name="hourly_total_intake_22" /></td>
+						<td><input class="form-control" type="text" name="hourly_total_intake_24" /></td>
+						<td><input class="form-control" type="text" name="hourly_total_intake_02" /></td>
+						<td><input class="form-control" type="text" name="hourly_total_intake_04" /></td>
+						<td><input class="form-control" type="text" name="hourly_total_intake_06" /></td>
+					</tr>
+
+					<tr>
+						<th>Total Fluid Intake : </th>
+						<td><input class="form-control" type="text" name="total_fluid_intake_08" /></td>
+						<td><input class="form-control" type="text" name="total_fluid_intake_10" /></td>
+						<td><input class="form-control" type="text" name="total_fluid_intake_12" /></td>
+						<td><input class="form-control" type="text" name="total_fluid_intake_14" /></td>
+						<td><input class="form-control" type="text" name="total_fluid_intake_16" /></td>
+						<td><input class="form-control" type="text" name="total_fluid_intake_18" /></td>
+						<td><input class="form-control" type="text" name="total_fluid_intake_20" /></td>
+						<td><input class="form-control" type="text" name="total_fluid_intake_22" /></td>
+						<td><input class="form-control" type="text" name="total_fluid_intake_24" /></td>
+						<td><input class="form-control" type="text" name="total_fluid_intake_02" /></td>
+						<td><input class="form-control" type="text" name="total_fluid_intake_04" /></td>
+						<td><input class="form-control" type="text" name="total_fluid_intake_06" /></td>
+					</tr>
+
+					<tr>
+						<th>Output Drains : </th>
+						<td><input class="form-control" type="text" name="output_drains_08" /></td>
+						<td><input class="form-control" type="text" name="output_drains_10" /></td>
+						<td><input class="form-control" type="text" name="output_drains_12" /></td>
+						<td><input class="form-control" type="text" name="output_drains_14" /></td>
+						<td><input class="form-control" type="text" name="output_drains_16" /></td>
+						<td><input class="form-control" type="text" name="output_drains_18" /></td>
+						<td><input class="form-control" type="text" name="output_drains_20" /></td>
+						<td><input class="form-control" type="text" name="output_drains_22" /></td>
+						<td><input class="form-control" type="text" name="output_drains_24" /></td>
+						<td><input class="form-control" type="text" name="output_drains_02" /></td>
+						<td><input class="form-control" type="text" name="output_drains_04" /></td>
+						<td><input class="form-control" type="text" name="output_drains_06" /></td>
+					</tr>
+
+					<tr>
+						<th>Total Drains : </th>
+						<td><input class="form-control" type="text" name="total_drains_08" /></td>
+						<td><input class="form-control" type="text" name="total_drains_10" /></td>
+						<td><input class="form-control" type="text" name="total_drains_12" /></td>
+						<td><input class="form-control" type="text" name="total_drains_14" /></td>
+						<td><input class="form-control" type="text" name="total_drains_16" /></td>
+						<td><input class="form-control" type="text" name="total_drains_18" /></td>
+						<td><input class="form-control" type="text" name="total_drains_20" /></td>
+						<td><input class="form-control" type="text" name="total_drains_22" /></td>
+						<td><input class="form-control" type="text" name="total_drains_24" /></td>
+						<td><input class="form-control" type="text" name="total_drains_02" /></td>
+						<td><input class="form-control" type="text" name="total_drains_04" /></td>
+						<td><input class="form-control" type="text" name="total_drains_06" /></td>
+					</tr>
+
+					<tr>
+						<th>NG Aspirate or Vomiting : </th>
+						<td><input class="form-control" type="text" name="aspirate_vomiting_08" /></td>
+						<td><input class="form-control" type="text" name="aspirate_vomiting_10" /></td>
+						<td><input class="form-control" type="text" name="aspirate_vomiting_12" /></td>
+						<td><input class="form-control" type="text" name="aspirate_vomiting_14" /></td>
+						<td><input class="form-control" type="text" name="aspirate_vomiting_16" /></td>
+						<td><input class="form-control" type="text" name="aspirate_vomiting_18" /></td>
+						<td><input class="form-control" type="text" name="aspirate_vomiting_20" /></td>
+						<td><input class="form-control" type="text" name="aspirate_vomiting_22" /></td>
+						<td><input class="form-control" type="text" name="aspirate_vomiting_24" /></td>
+						<td><input class="form-control" type="text" name="aspirate_vomiting_02" /></td>
+						<td><input class="form-control" type="text" name="aspirate_vomiting_04" /></td>
+						<td><input class="form-control" type="text" name="aspirate_vomiting_06" /></td>
+					</tr>
+
+					<tr>
+						<th>Urine Output : </th>
+						<td><input class="form-control" type="text" name="urine_08" /></td>
+						<td><input class="form-control" type="text" name="urine_10" /></td>
+						<td><input class="form-control" type="text" name="urine_12" /></td>
+						<td><input class="form-control" type="text" name="urine_14" /></td>
+						<td><input class="form-control" type="text" name="urine_16" /></td>
+						<td><input class="form-control" type="text" name="urine_18" /></td>
+						<td><input class="form-control" type="text" name="urine_20" /></td>
+						<td><input class="form-control" type="text" name="urine_22" /></td>
+						<td><input class="form-control" type="text" name="urine_24" /></td>
+						<td><input class="form-control" type="text" name="urine_02" /></td>
+						<td><input class="form-control" type="text" name="urine_04" /></td>
+						<td><input class="form-control" type="text" name="urine_06" /></td>
+					</tr>
+
+					<tr>
+						<th>Total Urine Output : </th>
+						<td><input class="form-control" type="text" name="total_urine_08" /></td>
+						<td><input class="form-control" type="text" name="total_urine_10" /></td>
+						<td><input class="form-control" type="text" name="total_urine_12" /></td>
+						<td><input class="form-control" type="text" name="total_urine_14" /></td>
+						<td><input class="form-control" type="text" name="total_urine_16" /></td>
+						<td><input class="form-control" type="text" name="total_urine_18" /></td>
+						<td><input class="form-control" type="text" name="total_urine_20" /></td>
+						<td><input class="form-control" type="text" name="total_urine_22" /></td>
+						<td><input class="form-control" type="text" name="total_urine_24" /></td>
+						<td><input class="form-control" type="text" name="total_urine_02" /></td>
+						<td><input class="form-control" type="text" name="total_urine_04" /></td>
+						<td><input class="form-control" type="text" name="total_urine_06" /></td>
+					</tr>
+
+					<tr>
+						<th>Hourly Total Output : </th>
+						<td><input class="form-control" type="text" name="hourly_total_output_08" /></td>
+						<td><input class="form-control" type="text" name="hourly_total_output_10" /></td>
+						<td><input class="form-control" type="text" name="hourly_total_output_12" /></td>
+						<td><input class="form-control" type="text" name="hourly_total_output_14" /></td>
+						<td><input class="form-control" type="text" name="hourly_total_output_16" /></td>
+						<td><input class="form-control" type="text" name="hourly_total_output_18" /></td>
+						<td><input class="form-control" type="text" name="hourly_total_output_20" /></td>
+						<td><input class="form-control" type="text" name="hourly_total_output_22" /></td>
+						<td><input class="form-control" type="text" name="hourly_total_output_24" /></td>
+						<td><input class="form-control" type="text" name="hourly_total_output_02" /></td>
+						<td><input class="form-control" type="text" name="hourly_total_output_04" /></td>
+						<td><input class="form-control" type="text" name="hourly_total_output_06" /></td>
+					</tr>
+
+					<tr>
+						<th>Total Fluid Output : </th>
+						<td><input class="form-control" type="text" name="total_fluid_output_08" /></td>
+						<td><input class="form-control" type="text" name="total_fluid_output_10" /></td>
+						<td><input class="form-control" type="text" name="total_fluid_output_12" /></td>
+						<td><input class="form-control" type="text" name="total_fluid_output_14" /></td>
+						<td><input class="form-control" type="text" name="total_fluid_output_16" /></td>
+						<td><input class="form-control" type="text" name="total_fluid_output_18" /></td>
+						<td><input class="form-control" type="text" name="total_fluid_output_20" /></td>
+						<td><input class="form-control" type="text" name="total_fluid_output_22" /></td>
+						<td><input class="form-control" type="text" name="total_fluid_output_24" /></td>
+						<td><input class="form-control" type="text" name="total_fluid_output_02" /></td>
+						<td><input class="form-control" type="text" name="total_fluid_output_04" /></td>
+						<td><input class="form-control" type="text" name="total_fluid_output_06" /></td>
+					</tr>
+
+					<tr>
+						<th>Balance : </th>
+						<td><input class="form-control" type="text" name="balance_08" /></td>
+						<td><input class="form-control" type="text" name="balance_10" /></td>
+						<td><input class="form-control" type="text" name="balance_12" /></td>
+						<td><input class="form-control" type="text" name="balance_14" /></td>
+						<td><input class="form-control" type="text" name="balance_16" /></td>
+						<td><input class="form-control" type="text" name="balance_18" /></td>
+						<td><input class="form-control" type="text" name="balance_20" /></td>
+						<td><input class="form-control" type="text" name="balance_22" /></td>
+						<td><input class="form-control" type="text" name="balance_24" /></td>
+						<td><input class="form-control" type="text" name="balance_02" /></td>
+						<td><input class="form-control" type="text" name="balance_04" /></td>
+						<td><input class="form-control" type="text" name="balance_06" /></td>
+					</tr>
+
+					<tr>
+						<th>RBS mg% / ABD Girth : </th>
+						<td><input class="form-control" type="text" name="rbs_mg_08" /></td>
+						<td><input class="form-control" type="text" name="rbs_mg_10" /></td>
+						<td><input class="form-control" type="text" name="rbs_mg_12" /></td>
+						<td><input class="form-control" type="text" name="rbs_mg_14" /></td>
+						<td><input class="form-control" type="text" name="rbs_mg_16" /></td>
+						<td><input class="form-control" type="text" name="rbs_mg_18" /></td>
+						<td><input class="form-control" type="text" name="rbs_mg_20" /></td>
+						<td><input class="form-control" type="text" name="rbs_mg_22" /></td>
+						<td><input class="form-control" type="text" name="rbs_mg_24" /></td>
+						<td><input class="form-control" type="text" name="rbs_mg_02" /></td>
+						<td><input class="form-control" type="text" name="rbs_mg_04" /></td>
+						<td><input class="form-control" type="text" name="rbs_mg_06" /></td>
+					</tr>
+
 
 
 				</tbody>
