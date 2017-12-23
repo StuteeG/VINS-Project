@@ -22,7 +22,7 @@
 				</div>
 			</div>
 		</div>
-		<form id="doctors_handover">
+		<form id="doctors_handover" method="post">
 			<div class="row form-group">
 			  <div class="col-md-8">
 					<div class="col-md-4">
