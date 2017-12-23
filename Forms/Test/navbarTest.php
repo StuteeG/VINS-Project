@@ -59,13 +59,9 @@
   </div><!-- /.container-fluid -->
 </nav>
 
+
 <body class="body">
 <div class="container">
-
-
-
-
-
   <div class="page-header">
 		<div class="row">
 			<div class="col-md-8">

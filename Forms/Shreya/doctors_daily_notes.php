@@ -21,162 +21,342 @@
 			</div>
 		</div>
 	</div>
-		<div class="row">
-			<div class="col-md-4">
 
-					<label> Patient's name: </label>
-					<input class="form-control" id="name" type="text" name="name" >
-
+	<div class="row form-group">
+		<div class="col-md-4">
+			<div class="col-md-6">
+	      <label>Patient's name: </label>
 			</div>
-			<div class="col-md-4">
-
-						<label> IPD no: </label>
-						<input class="form-control" id="ipd_no" type="text" name="ipd_no" >
-
-				</div>
-				<div class="col-md-4">
-
-						<label> Sex: </label>
-					<select class="form-control" name="sex">
-						<option>NA</option>
-						<option>Male</option>
-						<option>Female</option>
-					</select>
-
+			<div class="col-md-6">
+	      <input class="form-control" id="name" type="text" name="name" >
 			</div>
 		</div>
+		<div class="col-md-4">
+			<div class="col-md-6">
+	      <label>IPD No : </label>
+			</div>
+			<div class="col-md-6">
+				<input class="form-control" id="ipd_no" type="text" name="ipd_no" >
+			</div>
+		</div>
+	  <div class="col-md-4">
+			<div class="col-md-6">
+	      <label>Sex : </label>
+			</div>
+			<div class="col-md-6">
+				<select class="form-control" name="sex">
+					<option value="na">NA</option>
+					<option value="male">Male</option>
+					<option value="female">Female</option>
+				</select>
+			</div>
+		</div>
+	</div>
+
+	<div class="row form-group">
+		<div class="col-md-4">
+			<div class="col-md-6">
+	      <label>Attending consultant: </label>
+			</div>
+			<div class="col-md-6">
+	      <input type="text" class="form-control" id="attending_consultant" name="attending_consultant">
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="col-md-6">
+	      <label> Age : </label>
+			</div>
+			<div class="col-md-6">
+				<input class="form-control" id="ipd_no" type="text" name="age" >
+			</div>
+		</div>
+	  <div class="col-md-4">
+			<div class="col-md-6">
+	      <label>Date : </label>
+			</div>
+			<div class="col-md-6">
+				<input class="form-control" type="date" name="date" />
+			</div>
+		</div>
+	</div>
+
+	<hr />
 
 	<div class="row">
-		<div class="col-md-4">
+		<h3>7 AM S/B</h3>
+	</div>
 
-				<label> Attending consultant: </label>
-				<input type="text" class="form-control" id="attending_consultant" name="attending_consultant">                                                                                                                                                </div>                                                                                                                                                 <div class="col-md-4">
+	<div class="row form-group">
+		<div class="col-md-6">
+			<div class="col-md-6">
+	      <label>C/O : </label>
+			</div>
+			<div class="col-md-6">
+	      <input class="form-control" type="text" name="c_o_07" />
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="col-md-6">
+	      <label>O/E Pulse : </label>
+			</div>
+			<div class="col-md-6">
+	      <input class="form-control" type="text" name="oe_pulse_07" />
+			</div>
+		</div>
+	</div>
 
-				<label> Age : </label>
-				<textarea class="form-control" id="age" rows="1"  placeholder="" name="age" ></textarea>                                                                                                                                                </div>  <div class="col-md-4">
+	<div class="row form-group">
+		<div class="col-md-6">
+			<div class="col-md-6">
+	      <label>BP : </label>
+			</div>
+			<div class="col-md-6">
+	      <input class="form-control" type="text" name="bp_07" />
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="col-md-6">
+	      <label>Temprature : </label>
+			</div>
+			<div class="col-md-6">
+	      <input class="form-control" type="text" name="temp_07" />
+			</div>
+		</div>
+	</div>
 
-				<label> Date: </label>
-				<textarea class="form-control" id="date" rows="1"  placeholder="" name="date" ></textarea>                                                                                                                                                </div></div>
-				<div class="row"><hr><label> 7 AM S/B- </label><hr>
-					<div class="col-md-6">
+	<div class="row form-group">
+		<div class="col-md-6">
+			<div class="col-md-6">
+	      <label>Resp / SPO2 : </label>
+			</div>
+			<div class="col-md-6">
+	      <input class="form-control" type="text" name="resp_spo2_07" />
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="col-md-6">
+	      <label>Pain : </label>
+			</div>
+			<div class="col-md-6">
+	      <select class="form-control" name="pain_07">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+				</select>
+			</div>
+		</div>
+	</div>
 
-					<label> c/o-</label>
-					<input type="text" class="form-control" name="c/0">
-					<label> O/E-   PULSE:</label>
-					<input type="text" class="form-control" name="7_pulse">
+	<div class="row">
+		<h3>9 AM S/B</h3>
+	</div>
 
-					<label>   BP:</label>
-					<input type="text" class="form-control" name="7_bp">
-					<label> TEMP:</label>
-					<input type="text" class="form-control" name="7_temp">
-					<label> RESP/SPO2:</label>
-					<input type="text" class="form-control" name="7_resp/spo2">
-					<label> PAIN:</label>
-					<input type="radio" name="7_pain1">1
-						<input type="radio"  name="7_pain2">2
-						<input type="radio" name="7_pain3">3
-						<input type="radio" name="7_pain4">4
-						<input type="radio" name="7_pain5">5
-						<input type="radio" name="7_pain6">6
-						</br>
-						RMO NAME AND SIGN. <input type="text" name="7_rmo_name"></div>
-				<div class="col-md-6"></br></br>
-				<label> Investigation/Change in treatment/Reference</label>
-				<textarea class="form-control"  rows="10"  placeholder="" name="7_investigation" ></textarea>
-				</br>
-				CONSULTANT NAME AND SIGN. <input type="text" name="9_consultant_name">
-				</div>
-				</div>
-				<div class="row"><hr><label> 9 AM S/B- </label><hr>
-					<div class="col-md-6">
+	<div class="row form-group">
+		<div class="col-md-6">
+			<div class="col-md-6">
+	      <label>C/O : </label>
+			</div>
+			<div class="col-md-6">
+	      <input class="form-control" type="text" name="c_o_09" />
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="col-md-6">
+	      <label>O/E Pulse : </label>
+			</div>
+			<div class="col-md-6">
+	      <input class="form-control" type="text" name="oe_pulse_09" />
+			</div>
+		</div>
+	</div>
 
-					<label> c/o-</label>
-					<input type="text" class="form-control" name="c/0">
-					<label> O/E-   PULSE:</label>
-					<input type="text" class="form-control" name="9_pulse">
+	<div class="row form-group">
+		<div class="col-md-6">
+			<div class="col-md-6">
+	      <label>BP : </label>
+			</div>
+			<div class="col-md-6">
+	      <input class="form-control" type="text" name="bp_09" />
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="col-md-6">
+	      <label>Temprature : </label>
+			</div>
+			<div class="col-md-6">
+	      <input class="form-control" type="text" name="temp_09" />
+			</div>
+		</div>
+	</div>
 
-					<label>   BP:</label>
-					<input type="text" class="form-control" name="9_bp">
-					<label> TEMP:</label>
-					<input type="text" class="form-control" name="9_temp">
-					<label> RESP/SPO2:</label>
-					<input type="text" class="form-control" name="9_resp/spo2">
-					<label> PAIN:</label>
-					<input type="radio" name="7_pain1">1
-						<input type="radio"  name="9_pain2">2
-						<input type="radio" name="9_pain3">3
-						<input type="radio" name="9_pain4">4
-						<input type="radio" name="9_pain5">5
-						<input type="radio" name="9_pain6">6</br>
-						RMO NAME AND SIGN. <input type="text" name="9_rmo_name">
-						</div>
-				<div class="col-md-6"></br></br>
-				<label> Investigation/Change in treatment/Reference</label>
-				<textarea class="form-control"  rows="10"  placeholder="" name="9_investigation" ></textarea></br>
-				CONSULTANT NAME AND SIGN. <input type="text" name="9_consultant_name">
-				</div>
-				</div>
-				<div class="row"><hr><label> 3 PM S/B- </label><hr>
-					<div class="col-md-6">
+	<div class="row form-group">
+		<div class="col-md-6">
+			<div class="col-md-6">
+	      <label>Resp / SPO2 : </label>
+			</div>
+			<div class="col-md-6">
+	      <input class="form-control" type="text" name="resp_spo2_09" />
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="col-md-6">
+	      <label>Pain : </label>
+			</div>
+			<div class="col-md-6">
+	      <select class="form-control" name="pain_09">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+				</select>
+			</div>
+		</div>
+	</div>
 
-					<label> c/o-</label>
-					<input type="text" class="form-control" name="c/0">
-					<label> O/E-   PULSE:</label>
-					<input type="text" class="form-control" name="3_pulse">
+	<div class="row">
+		<h3>3 PM S/B</h3>
+	</div>
 
-					<label>   BP:</label>
-					<input type="text" class="form-control" name="3_bp">
-					<label> TEMP:</label>
-					<input type="text" class="form-control" name="3_temp">
-					<label> RESP/SPO2:</label>
-					<input type="text" class="form-control" name="3_resp/spo2">
-					<label> PAIN:</label>
-					<input type="radio" name="3_pain1">1
-						<input type="radio"  name="3_pain2">2
-						<input type="radio" name="3_pain3">3
-						<input type="radio" name="3_pain4">4
-						<input type="radio" name="3_pain5">5
-						<input type="radio" name="3_pain6">6
-						</br>
-						RMO NAME AND SIGN. <input type="text" name="3p_rmo_name"></div>
-				<div class="col-md-6"></br></br>
-				<label> Investigation/Change in treatment/Reference</label>
-				<textarea class="form-control"  rows="10"  placeholder="" name="3_investigation" ></textarea>
-				</br>
-				CONSULTANT NAME AND SIGN. <input type="text" name="9_consultant_name">
-				</div>
-				</div>
-				<div class="row"><hr><label> 9 PM S/B- </label><hr>
-					<div class="col-md-6">
+	<div class="row form-group">
+		<div class="col-md-6">
+			<div class="col-md-6">
+	      <label>C/O : </label>
+			</div>
+			<div class="col-md-6">
+	      <input class="form-control" type="text" name="c_o_03" />
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="col-md-6">
+	      <label>O/E Pulse : </label>
+			</div>
+			<div class="col-md-6">
+	      <input class="form-control" type="text" name="oe_pulse_03" />
+			</div>
+		</div>
+	</div>
 
-					<label> c/o-</label>
-					<input type="text" class="form-control" name="c/0">
-					<label> O/E-   PULSE:</label>
-					<input type="text" class="form-control" name="9p_pulse">
+	<div class="row form-group">
+		<div class="col-md-6">
+			<div class="col-md-6">
+	      <label>BP : </label>
+			</div>
+			<div class="col-md-6">
+	      <input class="form-control" type="text" name="bp_03" />
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="col-md-6">
+	      <label>Temprature : </label>
+			</div>
+			<div class="col-md-6">
+	      <input class="form-control" type="text" name="temp_03" />
+			</div>
+		</div>
+	</div>
 
-					<label>   BP:</label>
-					<input type="text" class="form-control" name="9p_bp">
-					<label> TEMP:</label>
-					<input type="text" class="form-control" name="9p_temp">
-					<label> RESP/SPO2:</label>
-					<input type="text" class="form-control" name="9p_resp/spo2">
-					<label> PAIN:</label>
-					<input type="radio" name="9p_pain1">1
-						<input type="radio"  name="9p_pain2">2
-						<input type="radio" name="9p_pain3">3
-						<input type="radio" name="9p_pain4">4
-						<input type="radio" name="9p_pain5">5
-						<input type="radio" name="9p_pain6">6
-						</br>
-						RMO NAME AND SIGN. <input type="text" name="9p_rmo_name"></div>
-				<div class="col-md-6"></br></br>
-				<label> Investigation/Change in treatment/Reference</label>
-				<textarea class="form-control"  rows="10"  placeholder="" name="0p_investigation" ></textarea>
-				</br>
-				CONSULTANT NAME AND SIGN. <input type="text" name="9_consultant_name">
-				</div>
-				</div>
-				<div>
-					<button class="btn btn-success btn-bg" type="submit" form="planofcare" value="submit">Submit</button>
-					</div>
-					</html>
+	<div class="row form-group">
+		<div class="col-md-6">
+			<div class="col-md-6">
+	      <label>Resp / SPO2 : </label>
+			</div>
+			<div class="col-md-6">
+	      <input class="form-control" type="text" name="resp_spo2_03" />
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="col-md-6">
+	      <label>Pain : </label>
+			</div>
+			<div class="col-md-6">
+	      <select class="form-control" name="pain_03">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+				</select>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<h3>9 PM S/B</h3>
+	</div>
+
+	<div class="row form-group">
+		<div class="col-md-6">
+			<div class="col-md-6">
+	      <label>C/O : </label>
+			</div>
+			<div class="col-md-6">
+	      <input class="form-control" type="text" name="c_o_19" />
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="col-md-6">
+	      <label>O/E Pulse : </label>
+			</div>
+			<div class="col-md-6">
+	      <input class="form-control" type="text" name="oe_pulse_19" />
+			</div>
+		</div>
+	</div>
+
+	<div class="row form-group">
+		<div class="col-md-6">
+			<div class="col-md-6">
+	      <label>BP : </label>
+			</div>
+			<div class="col-md-6">
+	      <input class="form-control" type="text" name="bp_19" />
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="col-md-6">
+	      <label>Temprature : </label>
+			</div>
+			<div class="col-md-6">
+	      <input class="form-control" type="text" name="temp_19" />
+			</div>
+		</div>
+	</div>
+
+	<div class="row form-group">
+		<div class="col-md-6">
+			<div class="col-md-6">
+	      <label>Resp / SPO2 : </label>
+			</div>
+			<div class="col-md-6">
+	      <input class="form-control" type="text" name="resp_spo2_19" />
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="col-md-6">
+	      <label>Pain : </label>
+			</div>
+			<div class="col-md-6">
+	      <select class="form-control" name="pain_19">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+				</select>
+			</div>
+		</div>
+	</div>
+
+
+
+<div>
+<button class="btn btn-success btn-bg" type="submit" form="planofcare" value="submit">Submit</button>
+</div>
+</html>

@@ -45,18 +45,18 @@
 <div class="row form-group">
 	<div class="col-md-6">
 		<div class="col-md-6">
-      -----col01-----
+      _____col01_____
 		</div>
 		<div class="col-md-6">
-      -----col02-----
+      _____col01_____
 		</div>
 	</div>
 	<div class="col-md-6">
 		<div class="col-md-6">
-      -----col03-----
+      _____col01_____
 		</div>
 		<div class="col-md-6">
-      -----col04-----
+      _____col01_____
 		</div>
 	</div>
 </div>
@@ -67,10 +67,10 @@
 
 <div class="row form-group">
 	<div class="col-md-6">
-    -----col01-----
+    _____col01_____
 	</div>
 	<div class="col-md-6">
-    -----col02-----
+    _____col01_____
 	</div>
 </div>
 
@@ -81,26 +81,26 @@
 <div class="row form-group">
 	<div class="col-md-4">
 		<div class="col-md-6">
-      -----col01-----
+      _____col_____
 		</div>
 		<div class="col-md-6">
-      -----col02-----
+      _____col_____
 		</div>
 	</div>
 	<div class="col-md-4">
 		<div class="col-md-6">
-      -----col03-----
+      _____col_____
 		</div>
 		<div class="col-md-6">
-      -----col04-----
+      _____col_____
 		</div>
 	</div>
   <div class="col-md-4">
 		<div class="col-md-6">
-      -----col05-----
+      _____col_____
 		</div>
 		<div class="col-md-6">
-      -----col06-----
+      _____col_____
 		</div>
 	</div>
 </div>
@@ -112,10 +112,10 @@
 <div class="row form-group">
 	<div class="col-md-6">
 		<div class="col-md-6">
-      -----col01-----
+      _____col_____
 		</div>
 		<div class="col-md-6">
-      -----col02-----
+      _____col_____
 		</div>
 	</div>
 </div>
