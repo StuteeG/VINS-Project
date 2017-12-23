@@ -1,2 +1,2 @@
 
-plan of care is pending
+plan of care is changed
