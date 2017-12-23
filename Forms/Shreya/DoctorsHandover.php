@@ -1,187 +1,210 @@
 <html>
 <head>
 	<title>
-		doctor's handover
+		Doctor's Handover
 	</title>
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 
-<div class="container">
-	<div class="page-header">
-		<div class="row">
-			<div class="col-md-6">
-			<h1>DOCTOR'S HANDOVER</h1>
-			</div>
-			<div class="col-md-6">
-				<div class="text-right">
-					DOC NO. FMT/HIC/09 <br>
-					REV. No. 0.1 <br>
-					WEF 10-10-2015
+<body>
+	<div class="container">
+		<div class="page-header">
+			<div class="row">
+				<div class="col-md-6">
+				<h1>Doctor's Handover</h1>
+				</div>
+				<div class="col-md-6">
+					<div class="text-right">
+						DOC NO. F/IPD/62 <br>
+						REV. No. 0.0 <br>
+						WEF 25-02-2017
+					</div>
 				</div>
 			</div>
 		</div>
+		<form id="doctors_handover">
+			<div class="row form-group">
+			  <div class="col-md-8">
+					<div class="col-md-4">
+						<label class="control-label" for="diagnosis">Diagnosis :</label>
+					</div>
+					<div class="col-md-8">
+						<textarea name="diagnosis" id="diagnosis" rows="3" class="form-control"></textarea>
+					</div>
+				</div>
+			  <div class="col-md-4 text-right">
+					<textarea name="addressograph" id="addressograph" rows="3" class="form-control" placeholder="Addressograph Here"></textarea>
+				</div>
+			</div>
+			<hr>
+			<div class="row form-group">
+			  <table class="table table-bordered table-responsive">
+			    <thead>
+					  <tr>
+							<th class="text-center">Sr. No.</th>
+							<th class="text-center">Particulars</th>
+							<th class="text-center">Day</th>
+							<th class="text-center">Night</th>
+					  </tr>
+					</thead>
+					<tbody>
+					  <tr>
+					    <td class="text-center">1</td>
+							<td>Patient is surgical/conservative</td>
+							<td class="text-center"><input type="radio" name="surgical_day" id="surgical_day" value="yes"/></td>
+							<td class="text-center"><input type="radio" name="surgical_night" id="surgical_night" value="yes"/></td>
+					  </tr>
+					  <tr>
+					    <td class="text-center">2</td>
+							<td>If patient is surgical then tentative date of surgery</td>
+							<td><input type="date" id="tentative_date_of_surgery_day" name="tentative_date_of_surgery_day" class="form-control"></td>
+							<td><input type="date" id="tentative_date_of_surgery_night" name="tentative_date_of_surgery_night" class="form-control"></td>
+					  </tr>
+					  <tr>
+					    <td class="text-center">3</td>
+							<td>Please mention date of surgery performed (If surgery performed)</td>
+							<td><input type="date" id="date_of_surgery_day" name="date_of_surgery_day" class="form-control"></td>
+							<td><input type="date" id="date_of_surgery_night" name="date_of_surgery_night" class="form-control"></td>
+					  </tr>
+					  <tr>
+					    <td class="text-center">4</td>
+							<td>Physician's reference</td>
+							<td><input type="text" class="form-control" name="physician_reference_day" id="physician_reference_day"></td>
+							<td><input type="text" class="form-control" name="physician_reference_day" id="physician_reference_night" ></td>
+					  </tr>
+					  <tr>
+					    <td class="text-center">5</td>
+							<td>Any other specialist's reference</td>
+							<td><input type="text" class="form-control" name="other_physician_reference_day" id="other_physician_reference_day"></td>
+							<td><input type="text" class="form-control" name="other_physician_reference_night" id="other_physician_reference_night"></td>
+					  </tr>
+					  <tr>
+					    <td class="text-center">6</td>
+							<td>Pathological investigation to be done</td>
+							<td class="text-center"><input type="radio" name="pathological_investigation_done_day" id="pathological_investigation_done_day" value="yes"/></td>
+							<td class="text-center"><input type="radio" name="pathological_investigation_done_night" id="pathological_investigation_done_night" value="yes"/></td>
+					  </tr>
+					  <tr>
+					    <td class="text-center">7</td>
+							<td>Reports of pathological investigation to be collected</td>
+							<td class="text-center"><input type="radio" name="pathological_investigation_collected_day" id="pathological_investigation_collected_day" value="yes"/></td>
+							<td class="text-center"><input type="radio" name="pathological_investigation_collected_night" id="pathological_investigation_collected_night" value="yes"/></td>
+					  </tr>
+					  <tr>
+					    <td class="text-center">8</td>
+							<td>Radiological investigation to be done</td>
+							<td class="text-center"><input type="radio" name="radiological_investigation_done_day" id="radiological_investigation_done_day" value="yes"/></td>
+							<td class="text-center"><input type="radio" name="radiological_investigation_done_night" id="radiological_investigation_done_night" value="yes"/></td>
+					  </tr>
+					  <tr>
+					    <td class="text-center">9</td>
+							<td>Reports of radiological investigation to be collected</td>
+							<td class="text-center"><input type="radio" name="radiological_investigation_collected_day" id="radiological_investigation_collected_day" value="yes"/></td>
+							<td class="text-center"><input type="radio" name="radiological_investigation_collected_night" id="radiological_investigation_collected_night" value="yes"/></td>
+					  </tr>
+					  <tr>
+					    <td class="text-center">10</td>
+							<td>Any other investigation to be done</td>
+							<td class="text-center"><input type="radio" name="other_investigation_done_day" id="other_investigation_done_day" value="yes"/></td>
+							<td class="text-center"><input type="radio" name="other_investigation_done_night" id="other_investigation_done_night" value="yes"/></td>
+					  </tr>
+					  <tr>
+					    <td class="text-center">11</td>
+							<td>Reports of said investigation awaited</td>
+							<td class="text-center"><input type="radio" name="other_investigation_collected_day" id="other_investigation_collected_day" value="yes"/></td>
+							<td class="text-center"><input type="radio" name="other_investigation_collected_night" id="other_investigation_collected_night" value="yes"/></td>
+					  </tr>
+					  <tr>
+					    <td class="text-center">12</td>
+							<td>Echo</td>
+							<td class="text-center"><input type="radio" name="echo_day" id="echo_day" value="yes"/></td>
+							<td class="text-center"><input type="radio" name="echo_night" id="echo_night" value="yes"/></td>
+					  </tr>
+					  <tr>
+					    <td class="text-center">13</td>
+							<td>Physiotherapy</td>
+							<td class="text-center"><input type="radio" name="surgical_day" id="surgical_day" value="yes"/></td>
+							<td class="text-center"><input type="radio" name="surgical_day" id="surgical_day" value="yes"/></td>
+					  </tr>
+					  <tr>
+					    <td class="text-center">14</td>
+							<td>Specific instruction/ change in treatment</td>
+							<td><textarea name="specific_instruction_day" id="specific_instruction_day" rows="3" class="form-control"></textarea></td>
+							<td><textarea name="specific_instruction_night" id="specific_instruction_night" rows="3" class="form-control"></textarea></td>
+					  </tr>
+					  <tr>
+					    <td class="text-center">15</td>
+							<td>Verified by physician's assistant</td>
+							<td class="text-center"><input type="radio" name="verified_by_assistant_day" id="verified_by_assistant_day" value="yes"/></td>
+							<td class="text-center"><input type="radio" name="verified_by_assistant_night" id="verified_by_assistant_night" value="yes"/></td>
+					  </tr>
+					  <tr>
+					    <td class="text-center">16</td>
+							<td>Over given by:</td>
+							<td></td>
+							<td></td>
+					  </tr>
+						<tr>
+							<td class=""></td>
+							<td>16.1 Signature</td>
+							<td><input type="text" class="form-control" name="signature_given_day" id="signature_given_day" /></td>
+							<td><input type="text" class="form-control" name="signature_given_night" id="signature_given_night" /></td>
+						</tr>
+						<tr>
+							<td class=""></td>
+							<td>16.2 Name</td>
+							<td><input type="text" class="form-control" name="name_given_day" id="name_given_day" /></td>
+							<td><input type="text" class="form-control" name="name_given_night" id="name_given_night" /></td>
+						</tr>
+						<tr>
+							<td class=""></td>
+							<td>16.3 Date</td>
+							<td><input type="date" class="form-control" name="date_given_day" id="date_given_day" /></td>
+							<td><input type="date" class="form-control" name="date_given_night" id="date_given_night" /></td>
+						</tr>
+						<tr>
+							<td class=""></td>
+							<td>16.4 Time</td>
+							<td><input type="time" class="form-control" name="time_given_day" id="time_given_day" /></td>
+							<td><input type="time" class="form-control" name="time_given_night" id="time_given_night" /></td>
+						</tr>
+						<tr>
+					    <td class="text-center">17</td>
+							<td>Over taken by:</td>
+							<td></td>
+							<td></td>
+					  </tr>
+						<tr>
+							<td class=""></td>
+							<td>17.1 Signature</td>
+							<td><input type="text" class="form-control" name="signature_taken_day" id="signature_taken_day" /></td>
+							<td><input type="text" class="form-control" name="signature_taken_night" id="signature_taken_night" /></td>
+						</tr>
+						<tr>
+							<td class=""></td>
+							<td>17.2 Name</td>
+							<td><input type="text" class="form-control" name="name_taken_day" id="name_taken_day" /></td>
+							<td><input type="text" class="form-control" name="name_taken_night" id="name_taken_night" /></td>
+						</tr>
+						<tr>
+							<td class=""></td>
+							<td>17.3 Date</td>
+							<td><input type="date" class="form-control" name="date_taken_day" id="date_taken_day" /></td>
+							<td><input type="date" class="form-control" name="date_taken_night" id="date_taken_night" /></td>
+						</tr>
+						<tr>
+							<td class=""></td>
+							<td>17.4 Time</td>
+							<td><input type="time" class="form-control" name="time_taken_day" id="time_taken_day" /></td>
+							<td><input type="time" class="form-control" name="time_taken_night" id="time_taken_night" /></td>
+						</tr>
+						<tr>
+					</tbody>
+			  </table>
+			</div>
+			<div class="form-group text-center">
+				<button class="btn btn-success btn-bg" type="submit" form="doctors_handover" value="submit">Submit</button>
+			</div>
+		</form>
 	</div>
-	<form id="doctor's_handover">
-		<div class="row">
-		  <div class="col-md-10">
-			<div class="form-group">
-			 <label>diagnosis : :</label>
-	 <input type="text" class="form-control" id="diagnosis" rows="3"  placeholder="" >
-			</div>
-
-
-		  <div class="col-md-2 text-right">
-			<input type="text" class="text-right" id="Addressograph" rows="3" placeholder="Addressograph Here">
-		</div>
-
-
-		</div>
-		<br>
-		<br>
-		<br>
-		<div class="row">
-		  <table class="table table-bordered">
-		    <thead>
-			  <tr>
-				<th rowspan="2">Sr. No.</th>
-				<th rowspan="2">Particulars</th>
-				<th rowspan="2"> Day</th>
-				<th rowspan="2"> Night</th>
-			  </tr>
-			</thead>
-			<tbody>
-			  <tr>
-			    <td>1</td>
-				<td>patient is surgical/conservative</td>
-				<td> <input type="text" id="01_1"></td>
-				<td> <input type="text" id="01_2" > </td>
-				</div>
-			  </tr>
-			  <tr>
-			    <td> 2</td>
-				<td> if patient is surgical then tentative date of surgery</td>
-				<td> <input type="date" id="02_1"></td>
-				<td> <input type="date" id="02_2" ></td>
-				</div>
-			  </tr>
-
-			   <tr>
-			    <td> 3</td>
-				<td> please mention date of surgery performed</td>
-				<td> <input type="date" id="03_1"></td>
-				<td> <input type="date" id="03_2" ></td>
-				</div>
-			  </tr>
-			   <tr>
-			    <td> 4</td>
-				<td> physician's reference</td>
-				<td> <input type="text" id="02_1"></td>
-				<td> <input type="text" id="02_2" ></td>
-				</div>
-			  </tr>
-			   <tr>
-			    <td> 5</td>
-				<td> any other specialist's reference</td>
-				<td> <input type="text" id="02_1"></td>
-				<td> <input type="text" id="02_2" ></td>
-				</div>
-			  </tr>
-			   <tr>
-			    <td> 6</td>
-				<td> pathological investigation to be done</td>
-				<td> <input type="text" id="02_1"></td>
-				<td> <input type="text" id="02_2" ></td>
-				</div>
-			  </tr>
-			   <tr>
-			    <td> 7</td>
-				<td> reports of pathological investigation to be done</td>
-				<td> <input type="text" id="02_1"></td>
-				<td> <input type="text" id="02_2" ></td>
-				</div>
-			  </tr>
-			   <tr>
-			    <td> 8</td>
-				<td> radiological investigation to be done</td>
-				<td> <input type="text" id="02_1"></td>
-				<td> <input type="text" id="02_2" ></td>
-				</div>
-			  </tr>
-			   <tr>
-			    <td> 9</td>
-				<td> reports of radiological investigation to be collected</td>
-				<td> <input type="text" id="02_1"></td>
-				<td> <input type="text" id="02_2" ></td>
-				</div>
-			  </tr>
-
-			   <tr>
-			    <td> 10</td>
-				<td> any other investigation to be done</td>
-				<td> <input type="text" id="02_1"></td>
-				<td> <input type="text" id="02_2" ></td>
-				</div>
-			  </tr>
-			   <tr>
-			    <td> 11</td>
-				<td> reports of said investigation awaited</td>
-				<td> <input type="text" id="02_1"></td>
-				<td> <input type="text" id="02_2" ></td>
-				</div>
-			  </tr>
-			   <tr>
-			    <td> 12</td>
-				<td> echo</td>
-				<td> <input type="text" id="02_1"></td>
-				<td> <input type="text" id="02_2" ></td>
-				</div>
-			  </tr>
-			   <tr>
-			    <td> 13</td>
-				<td> physiotherapy</td>
-				<td> <input type="text" id="02_1"></td>
-				<td> <input type="text" id="02_2" ></td>
-				</div>
-			  </tr>
-			   <tr>
-			    <td> 14</td>
-				<td> specific instruction/ change in treatment</td>
-				<td> <input type="text" id="02_1"></td>
-				<td> <input type="text" id="02_2" ></td>
-				</div>
-			  </tr>
-			   <tr>
-			    <td> 15</td>
-				<td> verifiesd by physician's assistant</td>
-				<td> <input type="text" id="02_1"></td>
-				<td> <input type="text" id="02_2" ></td>
-				</div>
-			  </tr>
-
-			   <tr>
-			    <td> 16</td>
-				<td> if patient is surgical then tentative date of surgery</td>
-				<td> <input type="text" id="02_1"></td>
-				<td> <input type="text" id="02_2" ></td>
-				</div>
-			  </tr>
-			   <tr>
-			    <td> 17
-				</td>
-				<td> if patient is surgical then tentative date of surgery</td>
-				<td> <input type="text" id="02_1"></td>
-				<td> <input type="text" id="02_2" ></td>
-				</div>
-			  </tr>
-
-
-
-
-			</tbody>
-		  </table>
-		</div>
-		<div>
-			<button class="btn btn-success btn-bg" type="submit" form="planofcare" value="submit">Submit</button>
-		</div>
-	</form>
-</div>
+</body>
