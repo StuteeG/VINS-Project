@@ -26,431 +26,165 @@ font-size : 9px
 		</div>
 	</div>
 	<form name="peripherallinebundlechecklist">
-		<div class="row">
-		  <div class="col-md-10">
-			<div class="form-group">
-			  Date of Insertion : <input class="form-check-input" type="date" name="date_insertion" placeholder="date">
-			  Date of Removal : <input class="form-check-input" type="date" name="date_removal" placeholder="date">
+		<div class="row form-group">
+			<div class="col-md-10">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="col-md-6">
+				      <label>Date of Insertion : </label>
+						</div>
+						<div class="col-md-6">
+				      <input class="form-control" type="date" name="date_insertion">
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="col-md-6">
+				      <label>Date of Removal : </label>
+						</div>
+						<div class="col-md-6">
+				      <input class="form-control" type="date" name="date_removal">
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="col-md-6">
+				      <label>Reason of Removal :</label>
+						</div>
+						<div class="col-md-6">
+				      <select class="form-control" name="reason_removal">
+								<option value="0">Infection</option>
+								<option value="1">Normal</option>
+								<option value="2">Discharge</option>
+							</select>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="col-md-6">
+				      <label>Organism if isolated : </label>
+						</div>
+						<div class="col-md-6">
+				      <input class="form-control" type="textbox" name="organism_isolated" placeholder="Organism if Isolated">
+						</div>
+					</div>
+				</div>
 			</div>
-			<div class="form-group">
-			  Reason of Removal :
-			  <input class="form-check-input" type="radio" name="reason_removal" value="Infection">Infection</input>
-			  <input class="form-check-input" type="radio" name="reason_removal" value="Normal">Normal</input>
-			  <input class="form-check-input" type="radio" name="reason_removal" value="Discharge">Discharge</input>
+			<div class="col-md-2 text-right">
+				<textarea class="text-right" name="Addressograph" placeholder="Addressograph Here"></textarea>
 			</div>
-			<div class="form-group">
-			  Organism if isolated : <input class="form-control" type="textbox" name="organism_isolated" placeholder="Organism if Isolated">
-			</div>
-		  </div>
-
-		  <div class="col-md-2 text-right">
-			<textarea class="text-right" name="Addressograph" rows="3" placeholder="Addressograph Here"></textarea>
 		</div>
-		</div>
 
-		<div class="row">
+		<div class="row form-group">
 		  <table class="table table-bordered">
 		    <thead>
-			  <tr>
-				<th rowspan="2">Sr. No.</th>
-				<th rowspan="2">Practice</th>
-				<th colspan="18" class="text-center">Observation Day</th>
-			  </tr>
-			  <tr>
-			    <th>M</th>
-				<th>E</th>
-				<th>N</th>
-				<th>M</th>
-				<th>E</th>
-				<th>N</th>
-				<th>M</th>
-				<th>E</th>
-				<th>N</th>
-				<th>M</th>
-				<th>E</th>
-				<th>N</th>
-				<th>M</th>
-				<th>E</th>
-				<th>N</th>
-				<th>M</th>
-				<th>E</th>
-				<th>N</th>
-			  </tr>
-			</thead>
-			<tbody>
-			  <tr>
-			    <td>1</td>
-				<td>Hand hygiene-6 steps disinfection, PPE before task</td>
-				<div class="form-group">
-				  <td><input class="form-control" type="checkbox" name="00_00" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="00_01" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="00_02" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="00_03" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="00_04" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="00_05" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="00_06" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="00_07" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="00_08" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="00_09" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="00_10" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="00_11" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="00_12" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="00_13" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="00_14" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="00_15" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="00_16" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="00_17" value="yes"></td>
-				</div>
-			  </tr>
-			  <tr>
-			    <td>2</td>
-				<td>Site preparation & Dressing Changes using 2% Chlorhexnameine / Provnameine Iodine</td>
-				<div class="form-group">
-				  <td><input class="form-control" type="checkbox" name="01_00" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="01_01" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="01_02" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="01_03" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="01_04" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="01_05" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="01_06" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="01_07" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="01_08" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="01_09" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="01_10" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="01_11" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="01_12" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="01_13" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="01_14" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="01_15" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="01_16" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="01_17" value="yes"></td>
-				</div>
-			  </tr>
-			  <tr>
-			    <td>3</td>
-				<td>Site Labelled - Date & Time </td>
-				<div class="form-group">
-				  <td><input class="form-control" type="checkbox" name="02_00" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="02_01" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="02_02" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="02_03" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="02_04" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="02_05" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="02_06" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="02_07" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="02_08" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="02_09" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="02_10" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="02_11" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="02_12" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="02_13" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="02_14" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="02_15" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="02_16" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="02_17" value="yes"></td>
-				</div>
-			  </tr>
-			  <tr>
-			    <td>4</td>
-				<td>Dressing change (Transparent SemiPermeable ) 3 to 4 days or when required.</td>
-				<div class="form-group">
-				  <td><input class="form-control" type="checkbox" name="03_00" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="03_01" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="03_02" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="03_03" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="03_04" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="03_05" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="03_06" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="03_07" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="03_08" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="03_09" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="03_10" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="03_11" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="03_12" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="03_13" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="03_14" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="03_15" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="03_16" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="03_17" value="yes"></td>
-				</div>
-			  </tr>
-			  <tr>
-			    <td>5</td>
-				<td>Inspection dressing Intact / Dampened / Loosened / Soiled</td>
-				<div class="form-group">
-				  <td><input class="form-control" type="checkbox" name="04_00" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="04_01" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="04_02" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="04_03" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="04_04" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="04_05" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="04_06" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="04_07" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="04_08" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="04_09" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="04_10" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="04_11" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="04_12" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="04_13" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="04_14" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="04_15" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="04_16" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="04_17" value="yes"></td>
-				</div>
-			  </tr>
-			  <tr>
-			    <td>6</td>
-				<td>Flushing with ACL Flushing protocol. Use only Single Use prefilled 0.9% NS(Posiflush) / Single USE sterile NS Vials.</td>
-				<div class="form-group">
-				  <td><input class="form-control" type="checkbox" name="05_00" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="05_01" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="05_02" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="05_03" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="05_04" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="05_05" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="05_06" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="05_07" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="05_08" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="05_09" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="05_10" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="05_11" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="05_12" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="05_13" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="05_14" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="05_15" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="05_16" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="05_17" value="yes"></td>
-				</div>
-			  </tr>
-			  <tr>
-			    <td>7</td>
-				<td>Wipe top of vial/bag with spirit or sterillum before withdrawing medicine</td>
-				<div class="form-group">
-				  <td><input class="form-control" type="checkbox" name="06_00" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="06_01" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="06_02" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="06_03" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="06_04" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="06_05" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="06_06" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="06_07" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="06_08" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="06_09" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="06_10" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="06_11" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="06_12" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="06_13" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="06_14" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="06_15" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="06_16" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="06_17" value="yes"></td>
-				</div>
-			  </tr>
-			  <tr>
-			    <td>8</td>
-				<td>Date of administratioin Set - Change Intermittent -24 hrs, Continuous - 48 - 72hrs,Blood 4hrs, TPN 24hrs</td>
-				<div class="form-group">
-				  <td><input class="form-control" type="checkbox" name="07_00" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="07_01" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="07_02" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="07_03" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="07_04" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="07_05" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="07_06" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="07_07" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="07_08" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="07_09" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="07_10" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="07_11" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="07_12" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="07_13" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="07_14" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="07_15" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="07_16" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="07_17" value="yes"></td>
-				</div>
-			  </tr>
-			  <tr>
-			    <td>9</td>
-				<td>Use of split septum closed connectors (Q syte, Extension or stand alone) Clean Q syte before each use.</td>
-				<div class="form-group">
-				  <td><input class="form-control" type="checkbox" name="08_00" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="08_01" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="08_02" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="08_03" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="08_04" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="08_05" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="08_06" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="08_07" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="08_08" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="08_09" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="08_10" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="08_11" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="08_12" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="08_13" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="08_14" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="08_15" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="08_16" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="08_17" value="yes"></td>
-				</div>
-			  </tr>
-			  <tr>
-			    <td>10</td>
-				<td>Clamping of unused lines.</td>
-				<div class="form-group">
-				  <td><input class="form-control" type="checkbox" name="09_00" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="09_01" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="09_02" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="09_03" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="09_04" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="09_05" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="09_06" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="09_07" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="09_08" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="09_09" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="09_10" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="09_11" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="09_12" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="09_13" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="09_14" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="09_15" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="09_16" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="09_17" value="yes"></td>
-				</div>
-			  </tr>
-			  <tr>
-			    <td>11</td>
-				<td>Daily review of line necessity / Prompt removal</td>
-				<div class="form-group">
-				  <td><input class="form-control" type="checkbox" name="10_00" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="10_01" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="10_02" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="10_03" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="10_04" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="10_05" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="10_06" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="10_07" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="10_08" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="10_09" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="10_10" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="10_11" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="10_12" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="10_13" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="10_14" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="10_15" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="10_16" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="10_17" value="yes"></td>
-				</div>
-			  </tr>
-			  <tr>
-			    <td></td>
-				<td class="text-right">Sign Of Staff</td>
-				<div class="form-group">
-				  <td><input class="form-control" type="checkbox" name="11_00" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="11_01" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="11_02" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="11_03" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="11_04" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="11_05" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="11_06" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="11_07" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="11_08" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="11_09" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="11_10" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="11_11" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="11_12" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="11_13" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="11_14" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="11_15" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="11_16" value="yes"></td>
-				  <td><input class="form-control" type="checkbox" name="11_17" value="yes"></td>
-				</div>
-			  </tr>
-			  <tr>
-			    <td></td>
-				<td class="text-right">ID No:</td>
-				<div class="form-group">
-				  <td><input class="form-control" type="checkbox" name="12_00" ></td>
-				  <td><input class="form-control" type="checkbox" name="12_01" ></td>
-				  <td><input class="form-control" type="checkbox" name="12_02" ></td>
-				  <td><input class="form-control" type="checkbox" name="12_03" ></td>
-				  <td><input class="form-control" type="checkbox" name="12_04" ></td>
-				  <td><input class="form-control" type="checkbox" name="12_05" ></td>
-				  <td><input class="form-control" type="checkbox" name="12_06" ></td>
-				  <td><input class="form-control" type="checkbox" name="12_07" ></td>
-				  <td><input class="form-control" type="checkbox" name="12_08" ></td>
-				  <td><input class="form-control" type="checkbox" name="12_09" ></td>
-				  <td><input class="form-control" type="checkbox" name="12_10" ></td>
-				  <td><input class="form-control" type="checkbox" name="12_11" ></td>
-				  <td><input class="form-control" type="checkbox" name="12_12" ></td>
-				  <td><input class="form-control" type="checkbox" name="12_13" ></td>
-				  <td><input class="form-control" type="checkbox" name="12_14" ></td>
-				  <td><input class="form-control" type="checkbox" name="12_15" ></td>
-				  <td><input class="form-control" type="checkbox" name="12_16" ></td>
-				  <td><input class="form-control" type="checkbox" name="12_17" ></td>
-				</div>
-			  </tr>
+				  <tr>
+						<th rowspan="2">Sr. No.</th>
+						<th rowspan="2">Practice</th>
+						<th colspan="18" class="text-center">Observation</th>
+				  </tr>
+				  <tr>
+				    <th>M</th>
+						<th>E</th>
+						<th>N</th>
+				  </tr>
+				</thead>
+				<tbody>
+				  <tr>
+				    <td>1</td>
+						<td>Hand hygiene-6 steps disinfection, PPE before task</td>
+						<td><input class="form-control" type="checkbox" name="00_M" value="yes"></td>
+					  <td><input class="form-control" type="checkbox" name="00_E" value="yes"></td>
+					  <td><input class="form-control" type="checkbox" name="00_N" value="yes"></td>
+				  </tr>
+				  <tr>
+				    <td>2</td>
+						<td>Site preparation & Dressing Changes using 2% Chlorhexnameine / Provnameine Iodine</td>
+						<td><input class="form-control" type="checkbox" name="01_M" value="yes"></td>
+					  <td><input class="form-control" type="checkbox" name="01_E" value="yes"></td>
+					  <td><input class="form-control" type="checkbox" name="01_N" value="yes"></td>
+				  </tr>
+				  <tr>
+				    <td>3</td>
+						<td>Site Labelled - Date & Time </td>
+						<td><input class="form-control" type="checkbox" name="02_M" value="yes"></td>
+					  <td><input class="form-control" type="checkbox" name="02_E" value="yes"></td>
+					  <td><input class="form-control" type="checkbox" name="02_N" value="yes"></td>
+				  </tr>
+				  <tr>
+				    <td>4</td>
+						<td>Dressing change (Transparent SemiPermeable ) 3 to 4 days or when required.</td>
+						<td><input class="form-control" type="checkbox" name="03_M" value="yes"></td>
+					  <td><input class="form-control" type="checkbox" name="03_E" value="yes"></td>
+					  <td><input class="form-control" type="checkbox" name="03_N" value="yes"></td>
+				  </tr>
+				  <tr>
+				    <td>5</td>
+						<td>Inspection dressing Intact / Dampened / Loosened / Soiled</td>
+						<td><input class="form-control" type="checkbox" name="04_M" value="yes"></td>
+					  <td><input class="form-control" type="checkbox" name="04_E" value="yes"></td>
+					  <td><input class="form-control" type="checkbox" name="04_N" value="yes"></td>
+				  </tr>
+				  <tr>
+				    <td>6</td>
+						<td>Flushing with ACL Flushing protocol. Use only Single Use prefilled 0.9% NS(Posiflush) / Single USE sterile NS Vials.</td>
+						<td><input class="form-control" type="checkbox" name="05_M" value="yes"></td>
+					  <td><input class="form-control" type="checkbox" name="05_E" value="yes"></td>
+					  <td><input class="form-control" type="checkbox" name="05_N" value="yes"></td>
+				  </tr>
+				  <tr>
+				    <td>7</td>
+						<td>Wipe top of vial/bag with spirit or sterillum before withdrawing medicine</td>
+						<td><input class="form-control" type="checkbox" name="06_M" value="yes"></td>
+					  <td><input class="form-control" type="checkbox" name="06_E" value="yes"></td>
+					  <td><input class="form-control" type="checkbox" name="06_N" value="yes"></td>
+				  </tr>
+				  <tr>
+				    <td>8</td>
+						<td>Date of administratioin Set - Change Intermittent -24 hrs, Continuous - 48 - 72hrs,Blood 4hrs, TPN 24hrs</td>
+						<td><input class="form-control" type="checkbox" name="07_M" value="yes"></td>
+					  <td><input class="form-control" type="checkbox" name="07_E" value="yes"></td>
+					  <td><input class="form-control" type="checkbox" name="07_N" value="yes"></td>
+				  </tr>
+				  <tr>
+				    <td>9</td>
+						<td>Use of split septum closed connectors (Q syte, Extension or stand alone) Clean Q syte before each use.</td>
+						<td><input class="form-control" type="checkbox" name="08_M" value="yes"></td>
+						<td><input class="form-control" type="checkbox" name="08_E" value="yes"></td>
+						<td><input class="form-control" type="checkbox" name="08_N" value="yes"></td>
+				  </tr>
+				  <tr>
+				    <td>10</td>
+						<td>Clamping of unused lines.</td>
+						<td><input class="form-control" type="checkbox" name="09_M" value="yes"></td>
+					  <td><input class="form-control" type="checkbox" name="09_E" value="yes"></td>
+					  <td><input class="form-control" type="checkbox" name="09_N" value="yes"></td>
+				  </tr>
+				  <tr>
+				    <td>11</td>
+						<td>Daily review of line necessity / Prompt removal</td>
+						<td><input class="form-control" type="checkbox" name="10_M" value="yes"></td>
+					  <td><input class="form-control" type="checkbox" name="10_E" value="yes"></td>
+					  <td><input class="form-control" type="checkbox" name="10_N" value="yes"></td>
+				  </tr>
+				  <tr>
+				    <td></td>
+						<td class="text-right">Sign Of Staff</td>
+						<td><input class="form-control" type="checkbox" name="11_M" value="yes"></td>
+					  <td><input class="form-control" type="checkbox" name="11_E" value="yes"></td>
+					  <td><input class="form-control" type="checkbox" name="11_N" value="yes"></td>
+				  </tr>
+				  <tr>
+				    <td></td>
+						<td class="text-right">ID No:</td>
+						<td><input class="form-control" type="checkbox" name="12_M" value="yes"></td>
+						<td><input class="form-control" type="checkbox" name="12_E" value="yes"></td>
+						<td><input class="form-control" type="checkbox" name="12_N" value="yes"></td>
+				  </tr>
 			</tbody>
 		  </table>
 		</div>
 
 		<div class="row">
-		<!--
-		  <table class="table table-bordered small">
-		    <thead>
-			  <tr>
-			    <th rowspan="3">No.</th>
-				<th rowspan="3">Date & Time of Insertion</th>
-				<th rowspan="3">Gauge</th>
-				<th rowspan="3">Attempts</th>
-				<th rowspan="3">Site</th>
-				<th rowspan="3">Date&Time of removal</th>
-				<th rowspan="3">Total Indwelling time(hrs)</th>
-				<th rowspan="3">Catheter Material</th>
-				<th rowspan="3">Flushing</th>
-				<th colspan="12" class="text-center">Reason of Removal</th>
-				<th colspan="4" class="text-center">Status of catheter on removal</th>
-			  </tr>
-			  <tr>
-			    <th colspan="5">Phlebitis Grade</th>
-				<th rowspan="2">Infiltration</th>
-				<th rowspan="2">Hematoma</th>
-				<th rowspan="2">Extravasation</th>
-				<th rowspan="2">Occlusion</th>
-				<th rowspan="2">As per protocol</th>
-				<th rowspan="2">Pt. Discharged</th>
-				<th rowspan="2">IV Therapy terminated</th>
-				<th rowspan="2">Fibrin/Clot</th>
-				<th colspan="2">Kinked</th>
-				<th rowspan="2">Tip Damage</th>
-			  </tr>
-			  <tr>
-			    <th>0</th>
-			    <th>1</th>
-				<th>2</th>
-				<th>3</th>
-				<th>4</th>
-				<th>Hub</th>
-				<th>Shaft</th>
-			  </tr>
-			  <tr>
-			    <div class="form-group small">
-				  <td><input class="form-control small" type="text" class="col-xs-2"></td>
-				  <td><input class="form-control" type="text" class="col-xs-2"></td>
-				  <td><input class="form-control" type="text" class="col-xs-2"></td>
-				  <td><input class="form-control" type="text" class="col-xs-2"></td>
-				  <td><input class="form-control" type="text" class="col-xs-2"></td>
-				  <td><input class="form-control" type="text" class="col-xs-2"></td>
-				  <td><input class="form-control" type="text" class="col-xs-2"></td>
-				  <td><input class="form-control" type="text" class="col-xs-2"></td>
-				  <td><input class="form-control" type="text" class="col-xs-2"></td>
-				  <td><input class="form-control" type="text" class="col-xs-2"></td>
-				  <td><input class="form-control" type="text" class="col-xs-2"></td>
-				  <td><input class="form-control" type="text" class="col-xs-2"></td>
-				</div>
-			  </tr>
-			</thead>
-		  </table> -->
 		  <table class="table table-bordered table-condensed">
 		    <thead>
 			  <tr>
