@@ -1,6 +1,5 @@
 Pending :
 
--Doctor's Initial Assessment
 -Investigation stylesheet
 -ER Observation
 -History Form

@@ -1,7 +1,7 @@
 <html>
 <head>
 	<title>
-		er observation
+		ER Observation
 	</title>
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
@@ -10,7 +10,7 @@
 	<div class="page-header">
 		<div class="row">
 			<div class="col-md-6">
-			<h2>ER OBSERVATIONw</h2>
+			<h1>ER Observation</h1>
 			</div>
 			<div class="col-md-6">
 				<div class="text-right">
@@ -21,100 +21,112 @@
 			</div>
 		</div>
 	</div>
-		<form id="er_observation">
-		<div class="row">
-		  <div class="col-md-5">
-			<div class="form-group">
-			 <label>Triage category :</label>
-			 <input type="text" class="form-control" id="triage_category" name="traige_category" >
+	<form id="er_observation">
+		<div class="row form-group">
+			<div class="col-md-10">
+				<div class="row form-group">
+					<div class="col-md-6">
+						<div class="col-md-6">
+				      <label>Date : </label>
+						</div>
+						<div class="col-md-6">
+				      <input class="form-control" type="date" name="date" />
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="col-md-6">
+				      <label>Triage Category : </label>
+						</div>
+						<div class="col-md-6">
+				      <input class="form-control" type="text" name="triage_category" />
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="col-md-2">
+				<textarea class="form-control" name="addressograph" placeholder="Addressograph"></textarea>
 			</div>
 		</div>
-		<div class="col-md-4">
-			<div class="form-group">
-			 <label>Date :</label>
-			 </br></br>
-			 <input type="date" id="date" name="date" >
+
+		<div class="row form-group">
+			<div class="col-md-6">
+				<div class="col-md-6">
+		      <label>Diagnosis : </label>
+				</div>
+				<div class="col-md-6">
+		      <input class="form-control" type="text" name="diagnosis" />
+				</div>
 			</div>
+		</div>
+
+		<div class="row form-group">
+			<div class="col-md-6">
+				<div class="col-md-6">
+		      <label>Investigations : </label>
+				</div>
+				<div class="col-md-6">
+		      <input class="form-control" type="text" name="investigation" />
+				</div>
 			</div>
-			<div>
-		   <div class="col-md-3 text-right">
-			<textarea class="text-right" id="Addressograph" placeholder=" Addressograph_Here" name="Addressograph" ></textarea>
-			</div></textarea>
-		</div>
-		</div>
-		<div class="row">
-		  <div class="col-md-10"><hr>
-			<div class="form-group">
-			 <label>Diagnosis :</label>
-			 <input type="text" class="form-control" id="diagnosis" name="diagnosis" >
-			</div></div>
-		</div>
-		<div class="row">
-		  <div class="col-md-10">
-			<div class="form-group">
-			 <label>Inestigation :</label>
-			 <textarea class="form-control" id="investigation" rows="3"  placeholder="" name="investigation" ></textarea>
-			</div></div>
 		</div>
 
-		  <table class="table table-bordered">
-		    <thead>
-				<tr>
-					<th> Time</th>
-					<th><input type="time" name="time" id="time" class="form-control"> </th>
-					<th><input type="time" name="time" id="time" class="form-control"> </th>
-					<th><input type="time" name="time" id="time" class="form-control"> </th>
-
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td> Pulse</td>
-					<td><input type="text" name="pulse" class="form-control"> </td>
-					<td><input type="text" name="pulse" class="form-control"></td>
-					<td><input type="text" name="pulse" class="form-control"></td>
-
-				</tr>
-				<tr>
-					<td> BP</td>
-					<td><input type="text" name="bp" class="form-control"> </td>
-					<td><input type="text" name="bp" class="form-control"></td>
-					<td><input type="text" name="bp" class="form-control"></td>
-
-				</tr>
-				<tr>
-					<td> SPO2</td>
-					<td> <input type="text" name="spo2" class="form-control"></td>
-					<td><input type="text" name="spo2" class="form-control"></td>
-					<td><input type="text" name="spo2" class="form-control"></td>
-
-				</tr>
-				<tr>
-					<td> RR</td>
-					<td><input type="text" name="rr" class="form-control"> </td>
-					<td><input type="text" name="rr" class="form-control"></td>
-					<td><input type="text" name="rr" class="form-control"></td>
-
-				</tr>
-				<tr>
-					<td> GCS</td>
-					<td> <input type="text" name="gcs" class="form-control"></td>
-					<td><input type="text" name="gcs" class="form-control"></td>
-					<td><input type="text" name="gcs" class="form-control"></td>
-
-				</tr>
-				<tr>
-					<td> Temperature</td>
-					<td><input type="text" name="temperature" class="form-control"> </td>
-					<td><input type="text" name="temperature" class="form-control"></td>
-					<td><input type="text" name="temperature" class="form-control"></td>
-
-				</tr>
-				</tbody>
-				</table>
-				<hr>
-				<table class="table table-bordered">
+		<div class="row form-group">
+			<table class="table table-bordered">
+				<thead>
+					<tr>
+						<th>Time</th>
+						<th><input class="form-control" type="time" name="time_01" /></th>
+						<th><input class="form-control" type="time" name="time_02" /></th>
+						<th><input class="form-control" type="time" name="time_03" /></th>
+					</tr>
+				</thead>
 				<tbody>
+					<tr>
+						<th>Pulse </th>
+						<td><input class="form-control" type="text" name="pulse_01" /></td>
+						<td><input class="form-control" type="text" name="pulse_02" /></td>
+						<td><input class="form-control" type="text" name="pulse_03" /></td>
+					</tr>
+					<tr>
+						<th>BP </th>
+						<td><input class="form-control" type="text" name="bp_01" /></td>
+						<td><input class="form-control" type="text" name="bp_02" /></td>
+						<td><input class="form-control" type="text" name="bp_03" /></td>
+					</tr>
+					<tr>
+						<th>SPO2 </th>
+						<td><input class="form-control" type="text" name="spo2_01" /></td>
+						<td><input class="form-control" type="text" name="spo2_02" /></td>
+						<td><input class="form-control" type="text" name="spo2_03" /></td>
+					</tr>
+					<tr>
+						<th>RR </th>
+						<td><input class="form-control" type="text" name="rr_01" /></td>
+						<td><input class="form-control" type="text" name="rr_02" /></td>
+						<td><input class="form-control" type="text" name="rr_03" /></td>
+					</tr>
+					<tr>
+						<th>GCS </th>
+						<td><input class="form-control" type="text" name="gcs_01" /></td>
+						<td><input class="form-control" type="text" name="gcs_02" /></td>
+						<td><input class="form-control" type="text" name="gcs_03" /></td>
+					</tr>
+					<tr>
+						<th>Temprature </th>
+						<td><input class="form-control" type="text" name="temp_01" /></td>
+						<td><input class="form-control" type="text" name="temp_02" /></td>
+						<td><input class="form-control" type="text" name="temp_03" /></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+		<hr />
+
+		<div class="row form-group">
+			<table class="table table-bordered">
+				<thead>
 					<tr>
 						<th> IV Infusion</th>
 						<th>QTY</TH>
@@ -122,172 +134,114 @@
 						<th>End Time</th>
 						<th> Remarks</th>
 					</tr>
-					<tr>
-						<td><input type="text" name="iv_infusion" class="form-control"> </td>
-						<td><input type="text" name="iv_infusion" class="form-control"> </td>
-						<td><input type="time" name="time" id="time" class="form-control"></td>
-						<td><input type="time" name="time" id="time" class="form-control"></td>
-
-						<td><input type="text" name="iv_infusion" class="form-control"> </td>
-						</tr>
-					<tr>
-						<td><input type="text" name="qty" class="form-control"> </td>
-						<td><input type="text" name="qty" class="form-control"> </td>
-						<td><input type="time" name="time" id="time" class="form-control"></td>
-						<td><input type="time" name="time" id="time" class="form-control"></td>
-						<td><input type="text" name="qty" class="form-control"> </td>
-				    </tr>
-					<tr>
-						<td><input type="text" name="start_time" class="form-control"> </td>
-						<td><input type="text" name="start_time" class="form-control"> </td>
-						<td><input type="time" name="time" id="time" class="form-control"></td>
-						<td><input type="time" name="time" id="time" class="form-control"></td>
-						<td><input type="text" name="start_time" class="form-control"> </td>
-				    </tr>
-					<tr>
-						<td><input type="text" name="end_time" class="form-control"> </td>
-						<td><input type="text" name="end_time" class="form-control"> </td>
-						<td><input type="time" name="time" id="time" class="form-control"></td>
-						<td><input type="time" name="time" id="time" class="form-control"></td>
-						<td><input type="text" name="end_time" class="form-control"> </td>
-				    </tr>
-					<tr>
-						<td><input type="text" name="remarks" class="form-control"> </td>
-						<td><input type="text" name="remarks" class="form-control"> </td>
-						<td><input type="time" name="time" id="time" class="form-control"></td>
-						<td><input type="time" name="time" id="time" class="form-control"></td>
-						<td><input type="text" name="remarks" class="form-control"> </td>
-				    </tr>
-			</tbody>
-		</table>
-		<div class="row">
-		<hr>
-		<b><align="center"> Medication Administration</b>
-		<table class="table table-bordered">
+				</thead>
 				<tbody>
 					<tr>
-						<th> Name of the Drug</th>
-						<th>Dosage</TH>
-						<th>  Routine</th>
-						<th>Administration By</th>
-						<th> Time</th>
+						<td><input type="text" name="iv_infusion_01" class="form-control"> </td>
+						<td><input type="text" name="qty_01" class="form-control"> </td>
+						<td><input type="time" name="time_start_01" id="time" class="form-control"></td>
+						<td><input type="time" name="time_end_01" id="time" class="form-control"></td>
+						<td><input type="text" name="remarks_01" class="form-control"> </td>
 					</tr>
 					<tr>
-						<td><input type="text" name="name_drug" class="form-control"> </td>
-						<td><input type="text" name="dosage" class="form-control"> </td>
-						<td><input type="text" name="routine" class="form-control"></td>
-						<td><input type="text" name="administration_by"  class="form-control"></td>
-						<td><input type="time" name="time" id="time" class="form-control"> </td>
-				    </tr>
-
+						<td><input type="text" name="iv_infusion_02" class="form-control"> </td>
+						<td><input type="text" name="qty_02" class="form-control"> </td>
+						<td><input type="time" name="time_start_02" id="time" class="form-control"></td>
+						<td><input type="time" name="time_end_02" id="time" class="form-control"></td>
+						<td><input type="text" name="remarks_02" class="form-control"> </td>
+					</tr>
 					<tr>
-						<td><input type="text" name="name_drug" class="form-control"> </td>
-						<td><input type="text" name="dosage" class="form-control"> </td>
-						<td><input type="text" name="routine" class="form-control"></td>
-						<td><input type="text" name="administration_by"  class="form-control"></td>
-						<td><input type="time" name="time" id="time" class="form-control"> </td>
-				    </tr>
+						<td><input type="text" name="iv_infusion_03" class="form-control"> </td>
+						<td><input type="text" name="qty_03" class="form-control"> </td>
+						<td><input type="time" name="time_start_03" id="time" class="form-control"></td>
+						<td><input type="time" name="time_end_03" id="time" class="form-control"></td>
+						<td><input type="text" name="remarks_03" class="form-control"> </td>
+					</tr>
 					<tr>
-						<td><input type="text" name="name_drug" class="form-control"> </td>
-						<td><input type="text" name="dosage" class="form-control"> </td>
-						<td><input type="text" name="routine" class="form-control"></td>
-						<td><input type="text" name="administration_by"  class="form-control"></td>
-						<td><input type="time" name="time" id="time" class="form-control"> </td>
-				    </tr>
-					<tr>
-						<td><input type="text" name="name_drug" class="form-control"> </td>
-						<td><input type="text" name="dosage" class="form-control"> </td>
-						<td><input type="text" name="routine" class="form-control"></td>
-						<td><input type="text" name="administration_by"  class="form-control"></td>
-						<td><input type="time" name="time" id="time" class="form-control"> </td>
-				    </tr>
-					<tr>
-						<td><input type="text" name="name_drug" class="form-control"> </td>
-						<td><input type="text" name="dosage" class="form-control"> </td>
-						<td><input type="text" name="routine" class="form-control"></td>
-						<td><input type="text" name="administration_by"  class="form-control"></td>
-						<td><input type="time" name="time" id="time" class="form-control"> </td>
-				    </tr>
-					<tr>
-						<td><input type="text" name="name_drug" class="form-control"> </td>
-						<td><input type="text" name="dosage" class="form-control"> </td>
-						<td><input type="text" name="routine" class="form-control"></td>
-						<td><input type="text" name="administration_by"  class="form-control"></td>
-						<td><input type="time" name="time" id="time" class="form-control"> </td>
-				    </tr>
-					<tr>
-						<td><input type="text" name="name_drug" class="form-control"> </td>
-						<td><input type="text" name="dosage" class="form-control"> </td>
-						<td><input type="text" name="routine" class="form-control"></td>
-						<td><input type="text" name="administration_by"  class="form-control"></td>
-						<td><input type="time" name="time" id="time" class="form-control"> </td>
-				    </tr>
-					</tbody></table>
-					<hr>
-
-
-		<div class="col-md-4">
-			<div class="form-group">
-			 <label>Patient shifted to :</label>
-			 <textarea class="form-control" id="patient_shifted_to" rows="3"  placeholder="" name="patient_shifted_to" ></textarea>
-			</div>
+						<td><input type="text" name="iv_infusion_04" class="form-control"> </td>
+						<td><input type="text" name="qty_04" class="form-control"> </td>
+						<td><input type="time" name="time_start_04" id="time" class="form-control"></td>
+						<td><input type="time" name="time_end_04" id="time" class="form-control"></td>
+						<td><input type="text" name="remarks_04" class="form-control"> </td>
+					</tr>
+				</tbody>
+			</table>
 		</div>
 
-		<div class="col-md-4">
+		<hr />
+		<div class="row">
+			<h3>Medication Administration</h3>
+		</div>
 
-			 <label>ER nurse :</label>
-			 <textarea class="form-control" id="er_nurse" rows="3"  placeholder="" name="er_nurse" ></textarea></div>
-
-		<div class="col-md-4">
-
-			 <label>Signature :</label>
-			 <textarea class="form-control" id="signature" rows="3"  placeholder="" name="signature" ></textarea></div>
-
-		<hr>
-		<div class="row"></br></br>
-		<label align="center"> <u>Glasgow Coma Scale</u></label>
-						<table class="table table-bordered">
+		<div class="row form-group">
+			<table class="table table-bordered">
+				<thead>
+					<tr>
+						<th>Name of the Drug</th>
+						<th>Dosage</TH>
+						<th>Routine</th>
+						<th>Administration By</th>
+						<th>Time</th>
+					</tr>
+				</thead>
 				<tbody>
 					<tr>
-						<th> EYES OPEN</th>
-						<th>VERBAL RESPONSE</TH>
-						<th> MOTOR RESPONSE</th>
+						<td><input type="text" name="name_drug_01" class="form-control"> </td>
+						<td><input type="text" name="dosage_01" class="form-control"> </td>
+						<td><input type="text" name="routine_01" class="form-control"></td>
+						<td><input type="text" name="administration_by_01"  class="form-control"></td>
+						<td><input type="time" name="time_01" class="form-control"> </td>
+				  </tr>
+					<tr>
+						<td><input type="text" name="name_drug_02" class="form-control"> </td>
+						<td><input type="text" name="dosage_02" class="form-control"> </td>
+						<td><input type="text" name="routine_02" class="form-control"></td>
+						<td><input type="text" name="administration_by_02"  class="form-control"></td>
+						<td><input type="time" name="time_02" class="form-control"> </td>
+				  </tr>
+					<tr>
+						<td><input type="text" name="name_drug_03" class="form-control"> </td>
+						<td><input type="text" name="dosage_03" class="form-control"> </td>
+						<td><input type="text" name="routine_03" class="form-control"></td>
+						<td><input type="text" name="administration_by_03"  class="form-control"></td>
+						<td><input type="time" name="time_03" class="form-control"> </td>
+				  </tr>
+					<tr>
+						<td><input type="text" name="name_drug_04" class="form-control"> </td>
+						<td><input type="text" name="dosage_04" class="form-control"> </td>
+						<td><input type="text" name="routine_04" class="form-control"></td>
+						<td><input type="text" name="administration_by_04"  class="form-control"></td>
+						<td><input type="time" name="time_04" class="form-control"> </td>
+				  </tr>
+					<tr>
+						<td><input type="text" name="name_drug_05" class="form-control"> </td>
+						<td><input type="text" name="dosage_05" class="form-control"> </td>
+						<td><input type="text" name="routine_05" class="form-control"></td>
+						<td><input type="text" name="administration_by_05"  class="form-control"></td>
+						<td><input type="time" name="time_05" class="form-control"> </td>
+				  </tr>
+				</tbody>
+			</table>
+		</div>
 
-					</tr>
-					<tr>
-					<td>4=Spontaneous</td>
-					<td>5=Confused</td>
-					<td>6=Obey's commands</td>
-					</tr>
-					<tr>
-					<td>3=To speech</td>
-					<td>4=Inappropiate</td>
-					<td>5=Localizes to pain</td>
-					</tr>
-					<tr>
-					<td>2=To pain</td>
-					<td>3=Oriented</td>
-					<td>4=Withdraws to pain</td>
-					</tr>
-					<tr>
-					<td>1=No response</td>
-					<td>2=Incomprehensive</td>
-					<td>3=Flexion to pain</td>
-					</tr>
-					<tr>
-					<td></td>
-					<td></td>
-					<td>2=extension to pain</td>
-					</tr>
-					<tr>
-					<td></td>
-					<td></td>
-					<td>1=none</td>
-					</tr>
-					</tbody></table>
-					<div>
-
-					<div>
-					<button class="btn btn-success btn-bg" type="submit" form="planofcare" value="submit">Submit</button>
-					</div>
-					</html>
+		<div class="row form-group">
+			<div class="col-md-6">
+				<div class="col-md-6">
+		      <label>Patient shifted to :</label>
+				</div>
+				<div class="col-md-6">
+		      <input class="form-control" name="patient_shifted_to"  />
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="col-md-6">
+		      <label>ER nurse :</label>
+				</div>
+				<div class="col-md-6">
+		      <input class="form-control" name="er_nurse"  />
+				</div>
+			</div>
+		</div>
+	</form>
+</div>
+</html>
