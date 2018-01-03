@@ -24,7 +24,7 @@
 			</div>
 		</div>
 
-		<form id="patientdierecord">
+		<form action="patientdietrecord.php" method="post">
 
 			<div class="row form-group">
 				<div class="col-md-6">
@@ -123,6 +123,13 @@
 					</div>
 					<div class="col-md-6">
 			      <input class="form-control" type="text" name="remarks" />
+					</div>
+				</div>
+			</div>
+			<div class="row form-group">
+				<div class="col-md-6">
+					<div class="col-md-6">
+						<input class="btn btn-success" type="submit" />
 					</div>
 				</div>
 			</div>
